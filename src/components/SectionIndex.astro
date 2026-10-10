@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import { T, type Lang } from '../i18n';
+interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | 'guides'; lang?: Lang; }
+const { section, lang = 'en' } = Astro.props;
+const prefix = lang === 'ru' ? '/ru' : '';
+const items = (await getCollection('articles', (a) => a.data.section === section && a.data.lang === lang && !a.data.draft))
+  .sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf());
+---
+{items.length === 0 ? (
+  <p class="notice">{T[lang].soon}</p>
+) : (
+  <ul class="list">
+    {items.map((a) => (
+      <li>
+        <a href={`${prefix}/${section}/${a.id.replace(/^ru\//, '')}/`}>{a.data.title}</a>
+        <p>{a.data.description}</p>
+      </li>
+    ))}
+  </ul>
+)}

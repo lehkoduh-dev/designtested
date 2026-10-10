@@ -1,0 +1,98 @@
+---
+import { SITE } from '../site';
+import { T, altPath, type Lang } from '../i18n';
+interface Props { title: string; description: string; lang?: Lang; alt?: string | null; }
+const { title, description, lang = 'en', alt } = Astro.props;
+const t = T[lang];
+const prefix = lang === 'ru' ? '/ru' : '';
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const fullTitle = title === SITE.name ? `${SITE.name} — ${t.tagline}` : `${title} | ${SITE.name}`;
+const altHref = alt === undefined ? altPath(Astro.url.pathname, lang) : alt;
+const altLang = lang === 'en' ? 'ru' : 'en';
+const nav = t.nav.map((n) => ({ href: prefix + n.path, label: n.label }));
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {altHref && <link rel="alternate" hreflang={lang} href={canonical} />}
+    {altHref && <link rel="alternate" hreflang={altLang} href={new URL(altHref, SITE.url).href} />}
+    <meta property="og:locale" content={lang === 'ru' ? 'ru_RU' : 'en_US'} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href={prefix + '/'}>Design<span>Tested</span></a>
+        <nav>
+          {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+          {altHref && <a class="lang" href={altHref} hreflang={altLang} lang={altLang}>{t.switchTo}</a>}
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p><strong>{SITE.name}</strong> — {t.tagline}</p>
+        <p class="small">
+          {t.footerDisclosure} <a href={prefix + '/affiliate-disclosure/'}>{t.disclosureLink}</a>.
+        </p>
+        <p class="small">
+          {t.footerLinks.map((l, i) => (<Fragment>{i > 0 && ' · '}<a href={prefix + l.path}>{l.label}</a></Fragment>))}
+        </p>
+      </div>
+    </footer>
+    <style is:global>
+      :root {
+        --bg: #fbfaf8; --fg: #1c1b19; --muted: #6a675f; --line: #e6e2d9;
+        --accent: #1f4fd8; --card: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #151513; --fg: #f1efe9; --muted: #a9a59a; --line: #2b2a26; --accent: #8fb0ff; --card: #1d1c19; }
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.65 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+      a { color: var(--accent); }
+      .site-header { border-bottom: 1px solid var(--line); }
+      .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding-top: 14px; padding-bottom: 14px; }
+      .brand { font-weight: 800; font-size: 1.25rem; text-decoration: none; color: var(--fg); letter-spacing: -0.02em; }
+      .brand span { color: var(--accent); }
+      nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+      nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
+      nav a:hover { color: var(--fg); }
+      nav a.lang { border: 1px solid var(--line); border-radius: 6px; padding: 0 8px; color: var(--fg); }
+      main { padding-top: 32px; padding-bottom: 48px; }
+      h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 12px; }
+      h2 { margin-top: 2em; letter-spacing: -0.01em; }
+      .lede { color: var(--muted); font-size: 1.15rem; margin-bottom: 28px; }
+      .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); margin: 24px 0; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; text-decoration: none; color: var(--fg); display: block; }
+      .card:hover { border-color: var(--accent); }
+      .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+      .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+      .list { list-style: none; padding: 0; margin: 20px 0; }
+      .list li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+      .list a { font-weight: 600; text-decoration: none; }
+      .list p { margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; }
+      .notice { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 12px 16px; font-size: 0.92rem; color: var(--muted); margin: 20px 0; }
+      .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); }
+      .small { font-size: 0.85rem; }
+      table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem; }
+      th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+      th { color: var(--muted); font-weight: 600; }
+      .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
+      @media (max-width: 600px) { table { display: block; overflow-x: auto; } }
+    </style>
+  </body>
+</html>

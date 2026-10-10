@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../site';
+const latest = (await getCollection('articles', (a) => a.data.lang === 'en' && !a.data.draft))
+  .sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf()).slice(0, 6);
+const sections = [
+  { href: '/best/', t: 'Best of', d: 'Shortlists of the best tools, by job.' },
+  { href: '/compare/', t: 'Compare', d: 'Head-to-head, with a clear pick.' },
+  { href: '/reviews/', t: 'Reviews', d: 'Hands-on, including the downsides.' },
+  { href: '/business-tools/', t: 'Business tools', d: 'CRM, proposals, invoicing, projects.' },
+];
+---
+<Base title={SITE.name} description="Independent reviews and comparisons of software for interior designers and design studios. Tools for designers, tested before you buy.">
+  <h1>{SITE.tagline}</h1>
+  <p class="lede">
+    Independent reviews and side-by-side comparisons of the software design studios actually use —
+    starting with interior design, expanding to the gear on your desk.
+  </p>
+  <div class="grid">
+    {sections.map((s) => (
+      <a class="card" href={s.href}><h3>{s.t}</h3><p>{s.d}</p></a>
+    ))}
+  </div>
+  <h2>Latest</h2>
+  {latest.length === 0 ? (
+    <p class="notice">First articles are on the way.</p>
+  ) : (
+    <ul class="list">
+      {latest.map((a) => (
+        <li><a href={`/${a.data.section}/${a.id}/`}>{a.data.title}</a><p>{a.data.description}</p></li>
+      ))}
+    </ul>
+  )}
+</Base>

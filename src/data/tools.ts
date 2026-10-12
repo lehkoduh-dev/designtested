@@ -12,6 +12,7 @@ export const tools: Tool[] = [
   { slug: 'floorplanner', name: 'Floorplanner', cat: 'plan', free: 'yes', price: 'Credits from $8.15 (5 credits)', note: 'Free: 5 projects; subscription prices not readable' },
   { slug: 'live-home-3d', name: 'Live Home 3D', cat: 'plan', free: 'yes', price: 'Mac lifetime from $59.99; subscription from $19.99/year', note: 'Mac, Windows, iOS, Android' },
   { slug: 'chief-architect', name: 'Chief Architect Premier', cat: 'model', free: 'no', price: '$1,995/year or $229/month', note: 'Residential design and construction documents' },
+  { slug: 'desenta', name: 'Desenta (our own product)', cat: 'business', free: 'yes', price: 'Free; Core €19/month, Pro €39/month', note: 'White-label client delivery; Early Access currently free. Does not draw or render' },
   { slug: 'houzz-pro', name: 'Houzz Pro', cat: 'business', free: 'trial', price: 'Pricing page unavailable when checked', note: 'Free trial and free account offered' },
   { slug: 'designfiles', name: 'DesignFiles', cat: 'business', free: 'no', price: '55/month (e-Design), 75/month (Full Service)', note: '+$30/month per extra user' },
   { slug: 'enscape', name: 'Enscape', cat: 'render', free: 'no', price: 'Solo $47.90/month, billed annually', note: 'Premium $55.90/month billed annually' },

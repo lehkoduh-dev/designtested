@@ -1,0 +1,49 @@
+---
+import { tools } from '../data/tools';
+const { lang = 'en' } = Astro.props;
+const L = lang === 'ru'
+  ? { pick: 'Отметьте от 2 до 4 программ', cat: 'Тип', free: 'Бесплатно', price: 'Цена', note: 'Особенности', review: 'Обзор', tool: 'Программа', yes: 'Бесплатный тариф', trial: 'Пробный период', no: 'Нет', empty: 'Выберите минимум две программы.', max: 'Не более 4.', clear: 'Сбросить', prefix: '/ru',
+      cats: { plan: 'Планировка', render: 'Рендер', model: '3D-моделирование', business: 'Управление бизнесом', ai: 'ИИ', sketch: 'Скетчи' }, src: 'Данные с официальных сайтов, на 12.10.2026. Цены в USD без налогов, если не указано иное.' }
+  : { pick: 'Tick 2 to 4 tools', cat: 'Type', free: 'Free option', price: 'Price', note: 'Notes', review: 'Review', tool: 'Tool', yes: 'Free plan', trial: 'Free trial', no: 'No', empty: 'Select at least two tools.', max: 'Maximum 4.', clear: 'Clear', prefix: '',
+      cats: { plan: 'Floor plans', render: 'Rendering', model: '3D modelling', business: 'Business management', ai: 'AI', sketch: 'Sketching' }, src: 'Data from vendors’ official pages, 12 Oct 2026. Prices in USD excluding tax unless stated.' };
+---
+<div id="cmp" data-l={JSON.stringify(L)} data-tools={JSON.stringify(tools)}>
+  <p><strong>{L.pick}</strong> <button type="button" id="cmp-clear">{L.clear}</button></p>
+  <ul class="cmp-list">
+    {tools.map((t) => (<li><label><input type="checkbox" value={t.slug} /> {t.name} <small>· {L.cats[t.cat]}</small></label></li>))}
+  </ul>
+  <div id="cmp-out" aria-live="polite"></div>
+  <p class="meta">{L.src}</p>
+</div>
+<style>
+  .cmp-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
+  .cmp-list small{color:var(--muted)}
+  #cmp-out table{margin-top:1rem}
+  #cmp-out td:first-child,#cmp-out th:first-child{font-weight:600;white-space:nowrap}
+</style>
+<script>
+  const root = document.getElementById('cmp')!;
+  const L = JSON.parse(root.dataset.l!);
+  const tools = JSON.parse(root.dataset.tools!);
+  const boxes = Array.from(root.querySelectorAll<HTMLInputElement>('input[type=checkbox]'));
+  const out = document.getElementById('cmp-out')!;
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+  function render() {
+    const sel = boxes.filter((b) => b.checked).map((b) => b.value);
+    try { history.replaceState(null, '', sel.length ? '#' + sel.join(',') : location.pathname); } catch {}
+    if (sel.length < 2) { out.innerHTML = '<p>' + L.empty + '</p>'; return; }
+    const list = sel.map((s) => tools.find((t: any) => t.slug === s));
+    const row = (label: string, f: (t: any) => string) => '<tr><td>' + label + '</td>' + list.map((t: any) => '<td>' + f(t) + '</td>').join('') + '</tr>';
+    out.innerHTML = '<table><thead><tr><th>' + L.tool + '</th>' + list.map((t: any) => '<th>' + esc(t.name) + '</th>').join('') + '</tr></thead><tbody>' +
+      row(L.cat, (t) => L.cats[t.cat]) + row(L.free, (t) => L[t.free]) + row(L.price, (t) => esc(t.price)) + row(L.note, (t) => esc(t.note)) +
+      row(L.review, (t) => '<a href="' + L.prefix + '/reviews/' + t.slug + '-review/">→</a>') + '</tbody></table>';
+  }
+  boxes.forEach((b) => b.addEventListener('change', () => {
+    if (boxes.filter((x) => x.checked).length > 4) { b.checked = false; alert(L.max); return; }
+    render();
+  }));
+  document.getElementById('cmp-clear')!.addEventListener('click', () => { boxes.forEach((b) => (b.checked = false)); render(); });
+  const h = location.hash.slice(1).split(',').filter(Boolean).slice(0, 4);
+  boxes.forEach((b) => (b.checked = h.includes(b.value)));
+  render();
+</script>

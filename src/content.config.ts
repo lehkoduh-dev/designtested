@@ -10,6 +10,10 @@ const articles = defineCollection({
     updated: z.coerce.date(),
     lang: z.enum(['en', 'ru']).default('en'),
     draft: z.boolean().default(false),
+    image: z.string().optional(),
+    imageCredit: z.string().optional(),
+    officialUrl: z.string().optional(),
+    vendor: z.string().optional(),
   }),
 });
 

@@ -20,6 +20,12 @@ const t = T.ru;
     <h1>{entry.data.title}</h1>
     <p class="meta">{t.lastUpdated} {date} · {t.byTeam}</p>
     <p class="notice">{t.articleDisclosure} <a href="/ru/affiliate-disclosure/">{t.details}</a>.</p>
+    {entry.data.image && (
+      <figure class="hero">
+        <img src={entry.data.image} alt={entry.data.vendor ?? entry.data.title} loading="lazy" width="1024" />
+        <figcaption>Image: {entry.data.imageCredit ?? 'official website'}{entry.data.officialUrl && <> · <a href={entry.data.officialUrl} rel="nofollow noopener" target="_blank">Official site</a></>}</figcaption>
+      </figure>
+    )}
     <Content />
   </article>
 </Base>

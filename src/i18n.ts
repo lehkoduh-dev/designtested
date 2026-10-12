@@ -5,6 +5,7 @@ export const T = {
     tagline: 'Tools for designers, tested before you buy.',
     nav: [
       { path: '/best/', label: 'Best of' },
+      { path: '/compare-tools/', label: 'Compare tools' },
       { path: '/compare/', label: 'Compare' },
       { path: '/reviews/', label: 'Reviews' },
       { path: '/business-tools/', label: 'Business tools' },
@@ -32,6 +33,7 @@ export const T = {
     tagline: 'Инструменты для дизайнеров: проверяем до покупки.',
     nav: [
       { path: '/best/', label: 'Лучшее' },
+      { path: '/compare-tools/', label: 'Сравнить программы' },
       { path: '/compare/', label: 'Сравнения' },
       { path: '/reviews/', label: 'Обзоры' },
       { path: '/business-tools/', label: 'Бизнес-инструменты' },

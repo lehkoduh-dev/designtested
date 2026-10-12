@@ -4,6 +4,8 @@ description: "A review of Foyr Neo, a rendering-focused design tool for interior
 section: reviews
 updated: 2026-10-12
 draft: false
+image: /img/tools/foyr-neo-review.jpg
+imageCredit: Foyr (official website, product demo)
 vendor: "Foyr"
 officialUrl: "https://foyr.com"
 ---

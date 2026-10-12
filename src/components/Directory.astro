@@ -21,12 +21,12 @@ const cats = Object.keys(L.cats);
   <div class="grid">
     {tools.map((t) => (
       <article class="card" data-cat={t.cat} data-free={t.free === 'no' ? '0' : '1'}>
-        <a class="thumb" href={`${P}/reviews/${t.slug}-review/`} tabindex="-1" aria-hidden="true">{hasImg(t.slug) ? <img src={`/img/tools/${t.slug}-review.jpg`} alt={t.name} loading="lazy" /> : <span class="ph">{t.name.slice(0, 2)}</span>}</a>
-        <h3><a href={`${P}/reviews/${t.slug}-review/`}>{t.name}</a></h3>
+        <a class="thumb" href={`/reviews/${t.slug}-review/`} tabindex="-1" aria-hidden="true">{hasImg(t.slug) ? <img src={`/img/tools/${t.slug}-review.jpg`} alt={t.name} loading="lazy" /> : <span class="ph">{t.name.slice(0, 2)}</span>}</a>
+        <h3><a href={`/reviews/${t.slug}-review/`}>{t.name}</a></h3>
         <p class="tag"><span>{L.cats[t.cat]}</span> <span class={`b-${t.free}`}>{L[t.free]}</span></p>
         <p class="price">{t.price}</p>
         <p class="note">{t.note}</p>
-        <p class="act"><a href={`${P}/reviews/${t.slug}-review/`}>{L.review} →</a> <label><input type="checkbox" class="pick" value={t.slug} /> {L.cmp}</label></p>
+        <p class="act"><a href={`/reviews/${t.slug}-review/`}>{L.review} →</a> <label><input type="checkbox" class="pick" value={t.slug} /> {L.cmp}</label></p>
       </article>
     ))}
   </div>

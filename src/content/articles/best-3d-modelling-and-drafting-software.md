@@ -1,0 +1,46 @@
+---
+title: "Best 3D Modelling and Drafting Software for Interior Designers in 2026"
+description: "SketchUp, Chief Architect, Blender and Morpholio Trace compared by price and purpose."
+section: best
+updated: 2026-10-13
+draft: false
+---
+
+When a floor plan app is not enough, you move to full modelling or drafting software. These are the main options we reviewed.
+
+## How we chose
+
+We compared published pricing and the purpose each vendor describes: general 3D modelling, residential design with construction documents, free open-source 3D, and tablet sketching.
+
+| Tool | Price | Free option |
+|---|---|---|
+| [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | No |
+| [Chief Architect Premier](/reviews/chief-architect-review/) | $1,995/year or $229/month | No |
+| [Blender](/reviews/blender-review/) | Free | Yes |
+| [Morpholio Trace](/reviews/morpholio-trace-review/) | In-app subscriptions $4.99–$24.99 (periods not stated) | Yes |
+
+## 1. SketchUp — Our pick
+
+A flexible 3D modeller. Go $10.75/month, Pro $33.25/month, Studio $71.58/month, all billed annually; education from $55/user/year.
+
+[Read the full review →](/reviews/sketchup-review/)
+
+## 2. Chief Architect Premier
+
+Professional residential design: drawing walls and objects generates a 3D model, materials list and construction documents. $1,995/year or $229/month.
+
+[Read the full review →](/reviews/chief-architect-review/)
+
+## 3. Blender
+
+Free open-source 3D suite. Not interior-specific; the best price, but you do more of the work.
+
+[Read the full review →](/reviews/blender-review/)
+
+## 4. Morpholio Trace
+
+Sketching and markup on iPhone and iPad, for developing ideas in layers. Free tier plus in-app subscriptions.
+
+[Read the full review →](/reviews/morpholio-trace-review/)
+
+*Based on prices and features published on each vendor's own site (read 12 October 2026). We have not yet tested these tools hands-on; each review says what is and is not verified. Prices in USD excluding tax unless stated.*

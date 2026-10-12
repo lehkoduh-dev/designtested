@@ -36,7 +36,7 @@ const L = lang === 'ru'
     const row = (label: string, f: (t: any) => string) => '<tr><td>' + label + '</td>' + list.map((t: any) => '<td>' + f(t) + '</td>').join('') + '</tr>';
     out.innerHTML = '<table><thead><tr><th>' + L.tool + '</th>' + list.map((t: any) => '<th>' + esc(t.name) + '</th>').join('') + '</tr></thead><tbody>' +
       row(L.cat, (t) => L.cats[t.cat]) + row(L.free, (t) => L[t.free]) + row(L.price, (t) => esc(t.price)) + row(L.note, (t) => esc(t.note)) +
-      row(L.review, (t) => '<a href="' + L.prefix + '/reviews/' + t.slug + '-review/">→</a>') + '</tbody></table>';
+      row(L.review, (t) => '<a href="' + '/reviews/' + t.slug + '-review/">→</a>') + '</tbody></table>';
   }
   boxes.forEach((b) => b.addEventListener('change', () => {
     if (boxes.filter((x) => x.checked).length > 4) { b.checked = false; alert(L.max); return; }

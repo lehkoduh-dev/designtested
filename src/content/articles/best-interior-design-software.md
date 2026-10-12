@@ -3,12 +3,12 @@ title: "Best Interior Design Software in 2026"
 description: "A buyer's guide to the main interior design software options in 2026: what each tool is for, what it costs, and who should pick it."
 section: best
 updated: 2026-10-10
-draft: true
+draft: false
 ---
 
 Choosing interior design software is mostly a question of what you need to hand a client: a floor plan, a photorealistic render, a proposal, or all three. This guide groups the main tools by that job and lists the prices published on each vendor's own site.
 
-> **Status:** draft. Prices below were read from the vendors' pricing pages on 10 October 2026 (USD, excluding VAT unless stated). Hands-on test notes will be added to each entry before this page is published.
+> Based on prices published on each vendor's own site (12 October 2026). We have not yet tested these tools hands-on; the full reviews state what is verified.
 
 ## Quick picks
 

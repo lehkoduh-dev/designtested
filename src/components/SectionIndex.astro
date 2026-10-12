@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { T, type Lang } from '../i18n';
-interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | 'guides'; lang?: Lang; }
+interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | 'guides' | 'gear'; lang?: Lang; }
 const { section, lang = 'en' } = Astro.props;
 const prefix = lang === 'ru' ? '/ru' : '';
 const items = (await getCollection('articles', (a) => a.data.section === section && a.data.lang === lang && !a.data.draft))
@@ -12,10 +12,16 @@ const items = (await getCollection('articles', (a) => a.data.section === section
 ) : (
   <ul class="list">
     {items.map((a) => (
-      <li>
-        <a href={`${prefix}/${section}/${a.id.replace(/^ru\//, '')}/`}>{a.data.title}</a>
-        <p>{a.data.description}</p>
+      <li class={a.data.image ? 'withimg' : ''}>
+        {a.data.image && <img class="th" src={a.data.image} alt="" loading="lazy" width="120" height="68" />}
+        <div><a href={`${prefix}/${section}/${a.id.replace(/^ru\//, '')}/`}>{a.data.title}</a>
+        <p>{a.data.description}</p></div>
       </li>
     ))}
   </ul>
 )}
+
+<style>
+  .list li.withimg{display:flex;gap:14px;align-items:flex-start}
+  .list img.th{width:120px;height:68px;object-fit:cover;border-radius:8px;flex:none;border:1px solid var(--line)}
+</style>

@@ -21,9 +21,15 @@ We included tools with a free plan or a free licence and noted the limits the ve
 | [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Yes |
 | [Blender](/reviews/blender-review/) | Free | Yes |
 
+[Compare these tools →](/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)
+
 ## 1. Sweet Home 3D — Our pick
 
 Free and open source, for drawing a plan, placing furniture and viewing it in 3D. Runs on Windows, macOS, Linux, iOS, Android and in a browser. The simplest no-cost start.
+
+![Sweet Home 3D](/img/tools/sweet-home-3d-review.jpg)
+
+<small>Image: eTeks (official website)</small>
 
 [Read the full review →](/reviews/sweet-home-3d-review/)
 
@@ -31,11 +37,19 @@ Free and open source, for drawing a plan, placing furniture and viewing it in 3D
 
 The Basic plan is free. Cloud-based with a large furniture library.
 
+![Homestyler](/img/tools/homestyler-review.jpg)
+
+<small>Image: Homestyler (official website)</small>
+
 [Read the full review →](/reviews/homestyler-review/)
 
 ## 3. RoomSketcher
 
 Free plan for one user, with watermarked snapshots.
+
+![RoomSketcher](/img/tools/roomsketcher-review.jpg)
+
+<small>Image: RoomSketcher (official website)</small>
 
 [Read the full review →](/reviews/roomsketcher-review/)
 
@@ -43,17 +57,29 @@ Free plan for one user, with watermarked snapshots.
 
 Free for up to 5 projects, with limits on floors and designs and watermarked SD exports.
 
+![Floorplanner](/img/tools/floorplanner-review.jpg)
+
+<small>Image: Floorplanner (official website)</small>
+
 [Read the full review →](/reviews/floorplanner-review/)
 
 ## 5. D5 Render
 
 Free Community plan with unlimited scenes, but non-commercial use only; commercial work needs Pro (from $38/month).
 
+![D5 Render](/img/tools/d5-render-review.jpg)
+
+<small>Image: Screenshot of the official website, 12 October 2026</small>
+
 [Read the full review →](/reviews/d5-render-review/)
 
 ## 6. Blender
 
 Free and open source, a general 3D suite rather than interior-specific software. Powerful for rendering, but you model and light scenes yourself.
+
+![Blender](/img/tools/blender-review.jpg)
+
+<small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Read the full review →](/reviews/blender-review/)
 

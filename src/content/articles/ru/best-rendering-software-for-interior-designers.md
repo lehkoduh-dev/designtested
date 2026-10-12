@@ -21,9 +21,15 @@ lang: ru
 | [Foyr Neo](/reviews/foyr-neo-review/) | From $39/month (Basic) | Пробный период |
 | [Blender](/reviews/blender-review/) | Free | Да |
 
+[Сравнить эти программы →](/ru/compare-tools/#d5-render,enscape,lumion,foyr-neo)
+
 ## 1. D5 Render — Наш выбор по цене
 
 Рендер в реальном времени с бесплатным тарифом Community (некоммерческий) и Pro от $38 в месяц. Самый низкий порог входа в этом списке.
+
+![D5 Render](/img/tools/d5-render-review.jpg)
+
+<small>Image: Screenshot of the official website, 12 October 2026</small>
 
 [Читать обзор (на английском) →](/reviews/d5-render-review/)
 
@@ -31,11 +37,19 @@ lang: ru
 
 Работает внутри вашей CAD- или BIM-программы, поэтому изменения модели сразу видны в рендере. Solo стоит $47.90 в месяц при оплате за год.
 
+![Enscape](/img/tools/enscape-review.jpg)
+
+<small>Image: Chaos (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/enscape-review/)
 
 ## 3. Lumion
 
 Рендер в реальном времени из CAD- или BIM-модели, с ИИ-инструментами и облаком для согласования. Pro на одного пользователя: $1,149 в год.
+
+![Lumion](/img/tools/lumion-review.jpg)
+
+<small>Image: Lumion (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/lumion-review/)
 
@@ -43,11 +57,19 @@ lang: ru
 
 Объединяет 2D-планировку, 3D-моделирование и рендер в одной программе для интерьерных дизайнеров. От $39 в месяц, 14 дней бесплатно.
 
+![Foyr Neo](/img/tools/foyr-neo-review.jpg)
+
+<small>Image: Foyr (official website, product demo)</small>
+
 [Читать обзор (на английском) →](/reviews/foyr-neo-review/)
 
 ## 5. Blender
 
 Бесплатный и мощный, но универсальный 3D-пакет: модели и свет придётся делать самому.
+
+![Blender](/img/tools/blender-review.jpg)
+
+<small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Читать обзор (на английском) →](/reviews/blender-review/)
 

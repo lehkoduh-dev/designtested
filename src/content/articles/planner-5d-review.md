@@ -4,6 +4,8 @@ description: "A review of Planner 5D, a home and interior design planner with fr
 section: reviews
 updated: 2026-10-12
 draft: false
+image: /img/tools/planner-5d-review.jpg
+imageCredit: Screenshot of the official website, 12 October 2026
 vendor: "Planner 5D"
 officialUrl: "https://planner5d.com"
 ---

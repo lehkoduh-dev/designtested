@@ -6,8 +6,10 @@ const L = lang === 'ru'
       cats: { plan: 'Планировка', render: 'Рендер', model: '3D-моделирование', business: 'Управление бизнесом', ai: 'ИИ', sketch: 'Скетчи' }, src: 'Данные с официальных сайтов, на 12.10.2026. Цены в USD без налогов, если не указано иное.' }
   : { pick: 'Tick 2 to 4 tools', cat: 'Type', free: 'Free option', price: 'Price', note: 'Notes', review: 'Review', tool: 'Tool', yes: 'Free plan', trial: 'Free trial', no: 'No', empty: 'Select at least two tools.', max: 'Maximum 4.', clear: 'Clear', prefix: '',
       cats: { plan: 'Floor plans', render: 'Rendering', model: '3D modelling', business: 'Business management', ai: 'AI', sketch: 'Sketching' }, src: 'Data from vendors’ official pages, 12 Oct 2026. Prices in USD excluding tax unless stated.' };
+import fs from 'node:fs';
+const withImg = tools.map((t) => ({ ...t, img: fs.existsSync(`./public/img/tools/${t.slug}-review.jpg`) ? `/img/tools/${t.slug}-review.jpg` : '' }));
 ---
-<div id="cmp" data-l={JSON.stringify(L)} data-tools={JSON.stringify(tools)}>
+<div id="cmp" data-l={JSON.stringify(L)} data-tools={JSON.stringify(withImg)}>
   <p><strong>{L.pick}</strong> <button type="button" id="cmp-clear">{L.clear}</button></p>
   <ul class="cmp-list">
     {tools.map((t) => (<li><label><input type="checkbox" value={t.slug} /> {t.name} <small>· {L.cats[t.cat]}</small></label></li>))}
@@ -19,6 +21,7 @@ const L = lang === 'ru'
   .cmp-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
   .cmp-list small{color:var(--muted)}
   #cmp-out table{margin-top:1rem}
+  .cimg{display:block;width:100%;max-width:200px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;margin-bottom:6px}
   #cmp-out td:first-child,#cmp-out th:first-child{font-weight:600;white-space:nowrap}
 </style>
 <script>
@@ -34,7 +37,7 @@ const L = lang === 'ru'
     if (sel.length < 2) { out.innerHTML = '<p>' + L.empty + '</p>'; return; }
     const list = sel.map((s) => tools.find((t: any) => t.slug === s));
     const row = (label: string, f: (t: any) => string) => '<tr><td>' + label + '</td>' + list.map((t: any) => '<td>' + f(t) + '</td>').join('') + '</tr>';
-    out.innerHTML = '<table><thead><tr><th>' + L.tool + '</th>' + list.map((t: any) => '<th>' + esc(t.name) + '</th>').join('') + '</tr></thead><tbody>' +
+    out.innerHTML = '<table><thead><tr><th>' + L.tool + '</th>' + list.map((t: any) => '<th>' + (t.img ? '<img class="cimg" src="' + t.img + '" alt="" loading="lazy">' : '') + esc(t.name) + '</th>').join('') + '</tr></thead><tbody>' +
       row(L.cat, (t) => L.cats[t.cat]) + row(L.free, (t) => L[t.free]) + row(L.price, (t) => esc(t.price)) + row(L.note, (t) => esc(t.note)) +
       row(L.review, (t) => '<a href="' + '/reviews/' + t.slug + '-review/">→</a>') + '</tbody></table>';
   }

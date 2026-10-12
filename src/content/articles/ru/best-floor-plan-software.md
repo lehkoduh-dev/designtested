@@ -22,9 +22,15 @@ lang: ru
 | [Floorplanner](/reviews/floorplanner-review/) | Credits from $8.15 (5 credits) | Да |
 | [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; subscription from $19.99/year | Да |
 
+[Сравнить эти программы →](/ru/compare-tools/#roomsketcher,planner-5d,coohom,homestyler)
+
 ## 1. RoomSketcher — Наш выбор
 
 Делает 2D- и 3D-планировки и 3D-фото. Есть бесплатный тариф; Pro стоит $24 в месяц или $12 в месяц при оплате $144 в год. Хороший баланс цены, бесплатного входа и результата.
+
+![RoomSketcher](/img/tools/roomsketcher-review.jpg)
+
+<small>Image: RoomSketcher (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/roomsketcher-review/)
 
@@ -32,11 +38,19 @@ lang: ru
 
 Редактор 2D/3D-дизайна дома для браузера и мобильных. Premium: $19.99 в месяц или $59.99 в год, есть бесплатный тариф.
 
+![Planner 5D](/img/tools/planner-5d-review.jpg)
+
+<small>Image: Screenshot of the official website, 12 October 2026</small>
+
 [Читать обзор (на английском) →](/reviews/planner-5d-review/)
 
 ## 3. Coohom
 
 Объединяет 2D-планировщик, 3D-редактор комнат и облачный рендер. Бесплатный Basic; Pro и Elite указаны как $29 и $69 (период оплаты не подтверждён).
+
+![Coohom](/img/tools/coohom-review.jpg)
+
+<small>Image: Coohom (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/coohom-review/)
 
@@ -44,17 +58,29 @@ lang: ru
 
 Облачный 3D-дизайн с большой библиотекой мебели и облачным рендером. Basic бесплатный; Pro+ от $6.8 в месяц.
 
+![Homestyler](/img/tools/homestyler-review.jpg)
+
+<small>Image: Homestyler (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/homestyler-review/)
 
 ## 5. Floorplanner
 
 Планировщик квартир и 3D-комнат в браузере. Бесплатно до 5 проектов; улучшения за кредиты (от $8.15 за 5).
 
+![Floorplanner](/img/tools/floorplanner-review.jpg)
+
+<small>Image: Floorplanner (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/floorplanner-review/)
 
 ## 6. Live Home 3D
 
 Приложение для планировок и 3D-дизайна на разных платформах. Лицензия для Mac навсегда от $59.99; подписка от $19.99 в год.
+
+![Live Home 3D](/img/tools/live-home-3d-review.jpg)
+
+<small>Image: BeLight Software (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/live-home-3d-review/)
 

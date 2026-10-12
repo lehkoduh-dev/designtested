@@ -4,6 +4,8 @@ description: "A review of D5 Render, a real-time rendering application with Comm
 section: reviews
 updated: 2026-10-12
 draft: false
+image: /img/tools/d5-render-review.jpg
+imageCredit: Screenshot of the official website, 12 October 2026
 vendor: "D5"
 officialUrl: "https://www.d5render.com"
 ---

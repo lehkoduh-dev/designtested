@@ -4,6 +4,8 @@ description: "An overview of Interior AI, a web app that redesigns uploaded inte
 section: reviews
 updated: 2026-10-12
 draft: false
+image: /img/tools/interior-ai-review.jpg
+imageCredit: Screenshot of the official website, 12 October 2026
 vendor: "Interior AI"
 officialUrl: "https://interiorai.com/"
 ---

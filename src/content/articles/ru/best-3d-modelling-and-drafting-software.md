@@ -20,9 +20,15 @@ lang: ru
 | [Blender](/reviews/blender-review/) | Free | Да |
 | [Morpholio Trace](/reviews/morpholio-trace-review/) | In-app subscriptions $4.99–$24.99 (periods not stated) | Да |
 
+[Сравнить эти программы →](/ru/compare-tools/#sketchup,chief-architect,blender,morpholio-trace)
+
 ## 1. SketchUp — Наш выбор
 
 Гибкий 3D-редактор. Go $10.75 в месяц, Pro $33.25, Studio $71.58, всё при оплате за год; для обучения от $55 за пользователя в год.
+
+![SketchUp](/img/tools/sketchup-review.jpg)
+
+<small>Image: Trimble SketchUp (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/sketchup-review/)
 
@@ -30,17 +36,29 @@ lang: ru
 
 Профессиональное проектирование домов: чертёж стен и объектов создаёт 3D-модель, список материалов и рабочие чертежи. $1,995 в год или $229 в месяц.
 
+![Chief Architect Premier](/img/tools/chief-architect-review.jpg)
+
+<small>Image: Chief Architect (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/chief-architect-review/)
 
 ## 3. Blender
 
 Бесплатный 3D-пакет с открытым кодом. Не специализирован под интерьеры; лучшая цена, но работы больше.
 
+![Blender](/img/tools/blender-review.jpg)
+
+<small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
+
 [Читать обзор (на английском) →](/reviews/blender-review/)
 
 ## 4. Morpholio Trace
 
 Скетчи и пометки на iPhone и iPad, идеи слоями. Бесплатный уровень и подписки внутри приложения.
+
+![Morpholio Trace](/img/tools/morpholio-trace-review.jpg)
+
+<small>Image: Morpholio Trace (App Store listing)</small>
 
 [Читать обзор (на английском) →](/reviews/morpholio-trace-review/)
 

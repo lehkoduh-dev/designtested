@@ -22,9 +22,15 @@ lang: ru
 | [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Да |
 | [Blender](/reviews/blender-review/) | Free | Да |
 
+[Сравнить эти программы →](/ru/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)
+
 ## 1. Sweet Home 3D — Наш выбор
 
 Бесплатная программа с открытым кодом: рисуете план, расставляете мебель, смотрите в 3D. Работает на Windows, macOS, Linux, iOS, Android и в браузере. Самый простой старт без затрат.
+
+![Sweet Home 3D](/img/tools/sweet-home-3d-review.jpg)
+
+<small>Image: eTeks (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/sweet-home-3d-review/)
 
@@ -32,11 +38,19 @@ lang: ru
 
 Тариф Basic бесплатный. Облачная программа с большой библиотекой мебели.
 
+![Homestyler](/img/tools/homestyler-review.jpg)
+
+<small>Image: Homestyler (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/homestyler-review/)
 
 ## 3. RoomSketcher
 
 Бесплатный тариф для одного пользователя, снимки с водяным знаком.
+
+![RoomSketcher](/img/tools/roomsketcher-review.jpg)
+
+<small>Image: RoomSketcher (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/roomsketcher-review/)
 
@@ -44,17 +58,29 @@ lang: ru
 
 Бесплатно до 5 проектов, с ограничениями по этажам и вариантам и водяными знаками на экспорте SD.
 
+![Floorplanner](/img/tools/floorplanner-review.jpg)
+
+<small>Image: Floorplanner (official website)</small>
+
 [Читать обзор (на английском) →](/reviews/floorplanner-review/)
 
 ## 5. D5 Render
 
 Бесплатный тариф Community с неограниченным числом сцен, но только для некоммерческого использования; для коммерческой работы нужен Pro (от $38 в месяц).
 
+![D5 Render](/img/tools/d5-render-review.jpg)
+
+<small>Image: Screenshot of the official website, 12 October 2026</small>
+
 [Читать обзор (на английском) →](/reviews/d5-render-review/)
 
 ## 6. Blender
 
 Бесплатный 3D-пакет с открытым кодом, не специализированный под интерьеры. Мощный для рендера, но модели и свет вы делаете сами.
+
+![Blender](/img/tools/blender-review.jpg)
+
+<small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Читать обзор (на английском) →](/reviews/blender-review/)
 

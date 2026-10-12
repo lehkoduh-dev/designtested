@@ -6,7 +6,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    section: z.enum(['best', 'compare', 'reviews', 'business-tools', 'guides']),
+    section: z.enum(['best', 'compare', 'reviews', 'business-tools', 'guides', 'gear']),
     updated: z.coerce.date(),
     lang: z.enum(['en', 'ru']).default('en'),
     draft: z.boolean().default(false),

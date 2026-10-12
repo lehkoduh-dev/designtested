@@ -20,9 +20,15 @@ We took each vendor's lowest verified paid price and converted yearly plans to a
 | [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | No |
 | [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Yes |
 
+[Compare these tools →](/compare-tools/#live-home-3d,planner-5d,homestyler,sketchup)
+
 ## 1. Live Home 3D — Our pick
 
 Standard subscription $19.99/year (about $1.67/month) on Windows, iOS and Android; Mac lifetime licence from $59.99. The lowest verified yearly price here.
+
+![Live Home 3D](/img/tools/live-home-3d-review.jpg)
+
+<small>Image: BeLight Software (official website)</small>
 
 [Read the full review →](/reviews/live-home-3d-review/)
 
@@ -30,11 +36,19 @@ Standard subscription $19.99/year (about $1.67/month) on Windows, iOS and Androi
 
 Premium $59.99/year (about $5/month), with a free plan to try.
 
+![Planner 5D](/img/tools/planner-5d-review.jpg)
+
+<small>Image: Screenshot of the official website, 12 October 2026</small>
+
 [Read the full review →](/reviews/planner-5d-review/)
 
 ## 3. Homestyler
 
 Pro+ from $6.8/month; Basic is free.
+
+![Homestyler](/img/tools/homestyler-review.jpg)
+
+<small>Image: Homestyler (official website)</small>
 
 [Read the full review →](/reviews/homestyler-review/)
 
@@ -42,11 +56,19 @@ Pro+ from $6.8/month; Basic is free.
 
 Go is $10.75/month billed annually, for iPad and web.
 
+![SketchUp](/img/tools/sketchup-review.jpg)
+
+<small>Image: Trimble SketchUp (official website)</small>
+
 [Read the full review →](/reviews/sketchup-review/)
 
 ## 5. RoomSketcher
 
 Pro is $12/month billed $144 per year; free plan available.
+
+![RoomSketcher](/img/tools/roomsketcher-review.jpg)
+
+<small>Image: RoomSketcher (official website)</small>
 
 [Read the full review →](/reviews/roomsketcher-review/)
 

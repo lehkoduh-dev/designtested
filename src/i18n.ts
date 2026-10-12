@@ -4,11 +4,9 @@ export const T = {
   en: {
     tagline: 'Tools for designers, tested before you buy.',
     nav: [
-      { path: '/software/', label: 'Software' },
+      { path: '/software/', label: 'Software & reviews' },
       { path: '/best/', label: 'Best of' },
-      { path: '/compare-tools/', label: 'Compare tools' },
-      { path: '/compare/', label: 'Compare' },
-      { path: '/reviews/', label: 'Reviews' },
+      { path: '/gear/', label: 'Gear' },
       { path: '/business-tools/', label: 'Business tools' },
       { path: '/guides/', label: 'Guides' },
     ],
@@ -33,11 +31,9 @@ export const T = {
   ru: {
     tagline: 'Инструменты для дизайнеров: проверяем до покупки.',
     nav: [
-      { path: '/software/', label: 'Каталог' },
+      { path: '/software/', label: 'Каталог и обзоры' },
       { path: '/best/', label: 'Лучшее' },
-      { path: '/compare-tools/', label: 'Сравнить программы' },
-      { path: '/compare/', label: 'Сравнения' },
-      { path: '/reviews/', label: 'Обзоры' },
+      { path: '/gear/', label: 'Оборудование' },
       { path: '/business-tools/', label: 'Бизнес-инструменты' },
       { path: '/guides/', label: 'Гайды' },
     ],

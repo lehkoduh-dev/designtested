@@ -4,6 +4,7 @@ export const T = {
   en: {
     tagline: 'Tools for designers, tested before you buy.',
     nav: [
+      { path: '/software/', label: 'Software' },
       { path: '/best/', label: 'Best of' },
       { path: '/compare-tools/', label: 'Compare tools' },
       { path: '/compare/', label: 'Compare' },
@@ -32,6 +33,7 @@ export const T = {
   ru: {
     tagline: 'Инструменты для дизайнеров: проверяем до покупки.',
     nav: [
+      { path: '/software/', label: 'Каталог' },
       { path: '/best/', label: 'Лучшее' },
       { path: '/compare-tools/', label: 'Сравнить программы' },
       { path: '/compare/', label: 'Сравнения' },

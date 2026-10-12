@@ -1,0 +1,74 @@
+---
+import { tools } from '../data/tools';
+const { lang = 'en' } = Astro.props;
+const P = lang === 'ru' ? '/ru' : '';
+const L = lang === 'ru'
+  ? { all: 'Все', free: 'Есть бесплатный вариант', review: 'Читать обзор', cmp: 'Сравнить', go: 'Сравнить выбранные', n: 'программ', sel: 'Выбрано',
+      cats: { plan: 'Планировка', render: 'Рендер', model: '3D-моделирование', business: 'Бизнес', ai: 'ИИ', sketch: 'Скетчи' }, yes: 'Бесплатный тариф', trial: 'Пробный период', no: 'Платная' }
+  : { all: 'All', free: 'Has a free option', review: 'Read review', cmp: 'Compare', go: 'Compare selected', n: 'tools', sel: 'Selected',
+      cats: { plan: 'Floor plans', render: 'Rendering', model: '3D modelling', business: 'Business', ai: 'AI', sketch: 'Sketching' }, yes: 'Free plan', trial: 'Free trial', no: 'Paid' };
+const cats = Object.keys(L.cats);
+---
+<div id="dir" data-prefix={P} data-go={L.go} data-sel={L.sel}>
+  <div class="filters">
+    <button type="button" data-cat="all" class="on">{L.all}</button>
+    {cats.map((c) => <button type="button" data-cat={c}>{L.cats[c]}</button>)}
+    <label><input type="checkbox" id="onlyfree" /> {L.free}</label>
+  </div>
+  <p class="meta"><span id="count">{tools.length}</span> {L.n}</p>
+  <div class="grid">
+    {tools.map((t) => (
+      <article class="card" data-cat={t.cat} data-free={t.free === 'no' ? '0' : '1'}>
+        <h3><a href={`${P}/reviews/${t.slug}-review/`}>{t.name}</a></h3>
+        <p class="tag"><span>{L.cats[t.cat]}</span> <span class={`b-${t.free}`}>{L[t.free]}</span></p>
+        <p class="price">{t.price}</p>
+        <p class="note">{t.note}</p>
+        <p class="act"><a href={`${P}/reviews/${t.slug}-review/`}>{L.review} →</a> <label><input type="checkbox" class="pick" value={t.slug} /> {L.cmp}</label></p>
+      </article>
+    ))}
+  </div>
+  <div id="bar" hidden><span id="sel"></span> <a id="gobtn" href="#">{L.go}</a></div>
+</div>
+<style>
+  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:1rem 0}
+  .filters button{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:4px 14px;cursor:pointer;font:inherit;font-size:.9rem}
+  .filters button.on{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+  .filters label{font-size:.9rem;margin-left:auto}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card h3{margin:0 0 6px;font-size:1.1rem}
+  .card h3 a{text-decoration:none;color:var(--fg)}
+  .tag{margin:0 0 8px;font-size:.78rem;display:flex;gap:6px;flex-wrap:wrap}
+  .tag span{border:1px solid var(--line);border-radius:6px;padding:0 7px;color:var(--muted)}
+  .tag .b-yes,.tag .b-trial{color:var(--accent2);border-color:var(--accent2)}
+  .price{margin:0;font-weight:600;font-size:.95rem}
+  .note{margin:4px 0 10px;color:var(--muted);font-size:.85rem}
+  .act{margin:0;display:flex;justify-content:space-between;gap:8px;font-size:.88rem}
+  #bar{position:sticky;bottom:12px;margin-top:16px;background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:12px;display:flex;justify-content:space-between;align-items:center}
+  #bar a{color:var(--bg);font-weight:700}
+  [hidden]{display:none!important}
+</style>
+<script>
+  const root = document.getElementById('dir')!;
+  const cards = Array.from(root.querySelectorAll<HTMLElement>('.card'));
+  let cat = 'all';
+  const apply = () => {
+    const f = (document.getElementById('onlyfree') as HTMLInputElement).checked;
+    let n = 0;
+    cards.forEach((c) => { const ok = (cat === 'all' || c.dataset.cat === cat) && (!f || c.dataset.free === '1'); c.hidden = !ok; if (ok) n++; });
+    document.getElementById('count')!.textContent = String(n);
+  };
+  root.querySelectorAll<HTMLButtonElement>('.filters button').forEach((b) => b.addEventListener('click', () => {
+    cat = b.dataset.cat!; root.querySelectorAll('.filters button').forEach((x) => x.classList.toggle('on', x === b)); apply();
+  }));
+  document.getElementById('onlyfree')!.addEventListener('change', apply);
+  const picks = Array.from(root.querySelectorAll<HTMLInputElement>('.pick'));
+  const bar = document.getElementById('bar')!;
+  picks.forEach((p) => p.addEventListener('change', () => {
+    const sel = picks.filter((x) => x.checked);
+    if (sel.length > 4) { p.checked = false; return; }
+    bar.hidden = sel.length < 2;
+    document.getElementById('sel')!.textContent = root.dataset.sel + ': ' + sel.length;
+    (document.getElementById('gobtn') as HTMLAnchorElement).href = root.dataset.prefix + '/compare-tools/#' + sel.map((x) => x.value).join(',');
+  }));
+</script>

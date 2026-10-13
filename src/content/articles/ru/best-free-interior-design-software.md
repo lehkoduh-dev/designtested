@@ -26,6 +26,8 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)
 
+<div class="pick top">
+
 ## 1. Sweet Home 3D — Наш выбор
 
 Бесплатная программа с открытым кодом: рисуете план, расставляете мебель, смотрите в 3D. Работает на Windows, macOS, Linux, iOS, Android и в браузере. Самый простой старт без затрат.
@@ -35,6 +37,10 @@ lang: ru
 <small>Image: eTeks (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/sweet-home-3d-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Homestyler
 
@@ -46,6 +52,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/homestyler-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. RoomSketcher
 
 Бесплатный тариф для одного пользователя, снимки с водяным знаком.
@@ -55,6 +65,10 @@ lang: ru
 <small>Image: RoomSketcher (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Floorplanner
 
@@ -66,6 +80,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/floorplanner-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. D5 Render
 
 Бесплатный тариф Community с неограниченным числом сцен, но только для некоммерческого использования; для коммерческой работы нужен Pro (от $38 в месяц).
@@ -76,6 +94,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/d5-render-review/)
 
+</div>
+
+<div class="pick">
+
 ## 6. Blender
 
 Бесплатный 3D-пакет с открытым кодом, не специализированный под интерьеры. Мощный для рендера, но модели и свет вы делаете сами.
@@ -85,5 +107,7 @@ lang: ru
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Читать обзор (на английском) →](/reviews/blender-review/)
+
+</div>
 
 *Основано на ценах и функциях, опубликованных на сайтах вендоров (на 12 октября 2026). Мы пока не тестировали программы сами; в каждом обзоре указано, что проверено, а что нет. Цены в USD без налогов, если не указано иное.*

@@ -25,6 +25,8 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#d5-render,enscape,lumion,foyr-neo)
 
+<div class="pick">
+
 ## 1. D5 Render — Наш выбор по цене
 
 Рендер в реальном времени с бесплатным тарифом Community (некоммерческий) и Pro от $38 в месяц. Самый низкий порог входа в этом списке.
@@ -34,6 +36,10 @@ lang: ru
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
 [Читать обзор (на английском) →](/reviews/d5-render-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Enscape — Наш выбор для работы с CAD/BIM
 
@@ -45,6 +51,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/enscape-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Lumion
 
 Рендер в реальном времени из CAD- или BIM-модели, с ИИ-инструментами и облаком для согласования. Pro на одного пользователя: $1,149 в год.
@@ -54,6 +64,10 @@ lang: ru
 <small>Image: Lumion (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/lumion-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Foyr Neo — Наш выбор «всё в одном»
 
@@ -65,6 +79,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/foyr-neo-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. Blender
 
 Бесплатный и мощный, но универсальный 3D-пакет: модели и свет придётся делать самому.
@@ -74,5 +92,7 @@ lang: ru
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Читать обзор (на английском) →](/reviews/blender-review/)
+
+</div>
 
 *Основано на ценах и функциях, опубликованных на сайтах вендоров (на 12 октября 2026). Мы пока не тестировали программы сами; в каждом обзоре указано, что проверено, а что нет. Цены в USD без налогов, если не указано иное.*

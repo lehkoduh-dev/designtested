@@ -23,6 +23,8 @@ We compared published pricing and the purpose each vendor describes: general 3D 
 
 [Compare these tools →](/compare-tools/#sketchup,chief-architect,blender,morpholio-trace)
 
+<div class="pick top">
+
 ## 1. SketchUp — Our pick
 
 A flexible 3D modeller. Go $10.75/month, Pro $33.25/month, Studio $71.58/month, all billed annually; education from $55/user/year.
@@ -32,6 +34,10 @@ A flexible 3D modeller. Go $10.75/month, Pro $33.25/month, Studio $71.58/month, 
 <small>Image: Trimble SketchUp (official website)</small>
 
 [Read the full review →](/reviews/sketchup-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Chief Architect Premier
 
@@ -43,6 +49,10 @@ Professional residential design: drawing walls and objects generates a 3D model,
 
 [Read the full review →](/reviews/chief-architect-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Blender
 
 Free open-source 3D suite. Not interior-specific; the best price, but you do more of the work.
@@ -53,6 +63,10 @@ Free open-source 3D suite. Not interior-specific; the best price, but you do mor
 
 [Read the full review →](/reviews/blender-review/)
 
+</div>
+
+<div class="pick">
+
 ## 4. Morpholio Trace
 
 Sketching and markup on iPhone and iPad, for developing ideas in layers. Free tier plus in-app subscriptions.
@@ -62,5 +76,7 @@ Sketching and markup on iPhone and iPad, for developing ideas in layers. Free ti
 <small>Image: Morpholio Trace (App Store listing)</small>
 
 [Read the full review →](/reviews/morpholio-trace-review/)
+
+</div>
 
 *Based on prices and features published on each vendor's own site (read 12 October 2026). We have not yet tested these tools hands-on; each review says what is and is not verified. Prices in USD excluding tax unless stated.*

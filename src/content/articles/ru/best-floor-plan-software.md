@@ -26,6 +26,8 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#roomsketcher,planner-5d,coohom,homestyler)
 
+<div class="pick top">
+
 ## 1. RoomSketcher — Наш выбор
 
 Делает 2D- и 3D-планировки и 3D-фото. Есть бесплатный тариф; Pro стоит $24 в месяц или $12 в месяц при оплате $144 в год. Хороший баланс цены, бесплатного входа и результата.
@@ -35,6 +37,10 @@ lang: ru
 <small>Image: RoomSketcher (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Planner 5D
 
@@ -46,6 +52,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/planner-5d-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Coohom
 
 Объединяет 2D-планировщик, 3D-редактор комнат и облачный рендер. Бесплатный Basic; Pro и Elite указаны как $29 и $69 (период оплаты не подтверждён).
@@ -55,6 +65,10 @@ lang: ru
 <small>Image: Coohom (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/coohom-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Homestyler
 
@@ -66,6 +80,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/homestyler-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. Floorplanner
 
 Планировщик квартир и 3D-комнат в браузере. Бесплатно до 5 проектов; улучшения за кредиты (от $8.15 за 5).
@@ -76,6 +94,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/floorplanner-review/)
 
+</div>
+
+<div class="pick">
+
 ## 6. Live Home 3D
 
 Приложение для планировок и 3D-дизайна на разных платформах. Лицензия для Mac навсегда от $59.99; подписка от $19.99 в год.
@@ -85,5 +107,7 @@ lang: ru
 <small>Image: BeLight Software (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/live-home-3d-review/)
+
+</div>
 
 *Основано на ценах и функциях, опубликованных на сайтах вендоров (на 12 октября 2026). Мы пока не тестировали программы сами; в каждом обзоре указано, что проверено, а что нет. Цены в USD без налогов, если не указано иное.*

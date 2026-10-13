@@ -25,6 +25,8 @@ We included tools with a free plan or a free licence and noted the limits the ve
 
 [Compare these tools →](/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)
 
+<div class="pick top">
+
 ## 1. Sweet Home 3D — Our pick
 
 Free and open source, for drawing a plan, placing furniture and viewing it in 3D. Runs on Windows, macOS, Linux, iOS, Android and in a browser. The simplest no-cost start.
@@ -34,6 +36,10 @@ Free and open source, for drawing a plan, placing furniture and viewing it in 3D
 <small>Image: eTeks (official website)</small>
 
 [Read the full review →](/reviews/sweet-home-3d-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Homestyler
 
@@ -45,6 +51,10 @@ The Basic plan is free. Cloud-based with a large furniture library.
 
 [Read the full review →](/reviews/homestyler-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. RoomSketcher
 
 Free plan for one user, with watermarked snapshots.
@@ -54,6 +64,10 @@ Free plan for one user, with watermarked snapshots.
 <small>Image: RoomSketcher (official website)</small>
 
 [Read the full review →](/reviews/roomsketcher-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Floorplanner
 
@@ -65,6 +79,10 @@ Free for up to 5 projects, with limits on floors and designs and watermarked SD 
 
 [Read the full review →](/reviews/floorplanner-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. D5 Render
 
 Free Community plan with unlimited scenes, but non-commercial use only; commercial work needs Pro (from $38/month).
@@ -75,6 +93,10 @@ Free Community plan with unlimited scenes, but non-commercial use only; commerci
 
 [Read the full review →](/reviews/d5-render-review/)
 
+</div>
+
+<div class="pick">
+
 ## 6. Blender
 
 Free and open source, a general 3D suite rather than interior-specific software. Powerful for rendering, but you model and light scenes yourself.
@@ -84,5 +106,7 @@ Free and open source, a general 3D suite rather than interior-specific software.
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Read the full review →](/reviews/blender-review/)
+
+</div>
 
 *Based on prices and features published on each vendor's own site (read 12 October 2026). We have not yet tested these tools hands-on; each review says what is and is not verified. Prices in USD excluding tax unless stated.*

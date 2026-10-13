@@ -24,6 +24,8 @@ This list is based on specifications published by each manufacturer on its own w
 
 **Our pick: BenQ SW272U.** Of the 27-inch 4K models here, it publishes the tightest accuracy figure (Delta E ≤ 1.5) alongside 99% Adobe RGB and 99% P3 coverage, and it supports hardware calibration. That combination suits designers who work between print samples, screen presentations and renders. This is a judgement from the published specs, not a test result. The ASUS PA279CRV is very close on paper if you prefer its port selection.
 
+<div class="pick">
+
 ## 1. BenQ SW272U
 
 BenQ lists the SW272U as a 27-inch 4K (3840 x 2160) monitor covering 100% sRGB, 99% Adobe RGB and 99% P3, with a Delta E of 1.5 or less. It uses a 16-bit 3D lookup table, supports hardware calibration through BenQ's AQCOLOR software, and has a Nano Matte panel to cut reflections. A USB-C port provides 90W of power for a laptop.
@@ -32,6 +34,10 @@ BenQ lists the SW272U as a 27-inch 4K (3840 x 2160) monitor covering 100% sRGB, 
 <small>Image: BenQ (official website)</small>
 
 [BenQ SW272U on benq.com](https://www.benq.com/en-us/monitor/creative-pro/sw272u.html)
+
+</div>
+
+<div class="pick">
 
 ## 2. ASUS ProArt Display PA279CRV
 
@@ -42,6 +48,10 @@ ASUS describes the PA279CRV as a 27-inch 4K IPS monitor with 100% sRGB, 99% Adob
 
 [ASUS ProArt Display PA279CRV on asus.com](https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa279crv/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Eizo ColorEdge CS2740
 
 Eizo lists the CS2740 as a 27-inch 4K UHD IPS hardware-calibration monitor with a typical Adobe RGB coverage of 99%. It offers USB Type-C, DisplayPort and HDMI inputs, a Digital Uniformity Equalizer, 10-bit display from a 16-bit lookup table, and a 5-year manufacturer's warranty. Calibration is handled by Eizo's ColorNavigator 7 software.
@@ -50,6 +60,10 @@ Eizo lists the CS2740 as a 27-inch 4K UHD IPS hardware-calibration monitor with 
 <small>Image: Eizo (official website)</small>
 
 [Eizo ColorEdge CS2740 on eizo.com](https://www.eizo.com/products/coloredge/cs2740/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Apple Studio Display
 
@@ -60,6 +74,10 @@ Apple's specifications list a 27-inch 5K Retina display (5120 x 2880, 218 pixels
 
 [Apple Studio Display specs on apple.com](https://www.apple.com/studio-display/specs/)
 
+</div>
+
+<div class="pick">
+
 ## 5. ASUS ProArt Display PA32UCXR
 
 ASUS lists the PA32UCXR as a 32-inch 4K IPS monitor with a mini-LED backlight (2,304 local dimming zones), 100% sRGB, 99% Adobe RGB and 97% DCI-P3 coverage, and peak HDR brightness of 1,600 cd/m². It has a built-in motorised colorimeter for self-calibration, supports Dolby Vision, HDR10 and HLG, and offers two Thunderbolt 4 ports with 90W USB-C power delivery. The larger panel and HDR focus make it more relevant to rendering and video work than to a basic design desk.
@@ -68,3 +86,5 @@ ASUS lists the PA32UCXR as a 32-inch 4K IPS monitor with a mini-LED backlight (2
 <small>Image: ASUS (official website)</small>
 
 [ASUS ProArt Display PA32UCXR on asus.com](https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa32ucxr/)
+
+</div>

@@ -23,11 +23,17 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#houzz-pro,designfiles,desenta)
 
+<div class="pick">
+
 ## 1. Houzz Pro
 
 Программа управления бизнесом для подрядчиков и дизайнеров: дизайн, предложения, счета и управление проектами в одной системе. Есть пробный период.
 
 [Читать обзор (на английском) →](/reviews/houzz-pro-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. DesignFiles
 
@@ -39,6 +45,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/designfiles-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Desenta (our own product) — наш собственный продукт
 
 White-label платформа для презентации и сдачи проекта по одной ссылке: мудборды, рендеры, планировки, FF&E-спецификации и бюджеты. Бесплатный тариф; Core €19 в месяц, Pro €39 в месяц.
@@ -48,6 +58,8 @@ White-label платформа для презентации и сдачи пр�
 <small>Image: Desenta (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/desenta-review/)
+
+</div>
 
 *Desenta — наш собственный продукт, см. раскрытие информации.*
 

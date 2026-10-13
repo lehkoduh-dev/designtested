@@ -24,6 +24,8 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#sketchup,chief-architect,blender,morpholio-trace)
 
+<div class="pick top">
+
 ## 1. SketchUp — Наш выбор
 
 Гибкий 3D-редактор. Go $10.75 в месяц, Pro $33.25, Studio $71.58, всё при оплате за год; для обучения от $55 за пользователя в год.
@@ -33,6 +35,10 @@ lang: ru
 <small>Image: Trimble SketchUp (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/sketchup-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Chief Architect Premier
 
@@ -44,6 +50,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/chief-architect-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Blender
 
 Бесплатный 3D-пакет с открытым кодом. Не специализирован под интерьеры; лучшая цена, но работы больше.
@@ -54,6 +64,10 @@ lang: ru
 
 [Читать обзор (на английском) →](/reviews/blender-review/)
 
+</div>
+
+<div class="pick">
+
 ## 4. Morpholio Trace
 
 Скетчи и пометки на iPhone и iPad, идеи слоями. Бесплатный уровень и подписки внутри приложения.
@@ -63,5 +77,7 @@ lang: ru
 <small>Image: Morpholio Trace (App Store listing)</small>
 
 [Читать обзор (на английском) →](/reviews/morpholio-trace-review/)
+
+</div>
 
 *Основано на ценах и функциях, опубликованных на сайтах вендоров (на 12 октября 2026). Мы пока не тестировали программы сами; в каждом обзоре указано, что проверено, а что нет. Цены в USD без налогов, если не указано иное.*

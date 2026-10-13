@@ -22,11 +22,17 @@ We compared what each vendor says its product covers and what it publishes about
 
 [Compare these tools →](/compare-tools/#houzz-pro,designfiles,desenta)
 
+<div class="pick">
+
 ## 1. Houzz Pro
 
 Business management software for contractors and design professionals: design, proposals, invoicing and project management in one system. Free trial offered.
 
 [Read the full review →](/reviews/houzz-pro-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. DesignFiles
 
@@ -38,6 +44,10 @@ A web-based system connecting design work, sourcing, invoicing and client commun
 
 [Read the full review →](/reviews/designfiles-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Desenta (our own product) — our own product
 
 White-label platform to present and deliver a project in one client link: moodboards, renders, floor plans, FF&E schedules and budgets. Free plan; Core €19/month, Pro €39/month.
@@ -47,6 +57,8 @@ White-label platform to present and deliver a project in one client link: moodbo
 <small>Image: Desenta (official website)</small>
 
 [Read the full review →](/reviews/desenta-review/)
+
+</div>
 
 *Desenta is our own product; see our disclosure.*
 

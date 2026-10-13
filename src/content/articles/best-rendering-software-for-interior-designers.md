@@ -24,6 +24,8 @@ We compared published prices, free options and the workflow each tool describes.
 
 [Compare these tools →](/compare-tools/#d5-render,enscape,lumion,foyr-neo)
 
+<div class="pick">
+
 ## 1. D5 Render — Our pick for low cost
 
 Real-time rendering with a free Community plan (non-commercial) and Pro plans from $38/month. The lowest cost of entry on this list.
@@ -33,6 +35,10 @@ Real-time rendering with a free Community plan (non-commercial) and Pro plans fr
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
 [Read the full review →](/reviews/d5-render-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Enscape — Our pick for CAD/BIM workflows
 
@@ -44,6 +50,10 @@ Works inside your CAD or BIM application, so model changes show in the rendered 
 
 [Read the full review →](/reviews/enscape-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Lumion
 
 Real-time rendering from a CAD or BIM model, with AI tools and a cloud space for review. Pro named user is $1,149/year.
@@ -53,6 +63,10 @@ Real-time rendering from a CAD or BIM model, with AI tools and a cloud space for
 <small>Image: Lumion (official website)</small>
 
 [Read the full review →](/reviews/lumion-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Foyr Neo — Our pick for all-in-one
 
@@ -64,6 +78,10 @@ Combines 2D planning, 3D modelling and rendering in one app, aimed at interior d
 
 [Read the full review →](/reviews/foyr-neo-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. Blender
 
 Free and powerful, but a general 3D tool: expect to build and light scenes yourself.
@@ -73,5 +91,7 @@ Free and powerful, but a general 3D tool: expect to build and light scenes yours
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
 [Read the full review →](/reviews/blender-review/)
+
+</div>
 
 *Based on prices and features published on each vendor's own site (read 12 October 2026). We have not yet tested these tools hands-on; each review says what is and is not verified. Prices in USD excluding tax unless stated.*

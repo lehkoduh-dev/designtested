@@ -25,6 +25,8 @@ We looked at what each vendor publishes: whether there is a free plan, the entry
 
 [Compare these tools →](/compare-tools/#roomsketcher,planner-5d,coohom,homestyler)
 
+<div class="pick top">
+
 ## 1. RoomSketcher — Our pick
 
 Produces 2D and 3D floor plans and 3D photos. Has a free plan; Pro is $24/month, or $12/month billed $144 per year. A good balance of price, free entry and output.
@@ -34,6 +36,10 @@ Produces 2D and 3D floor plans and 3D photos. Has a free plan; Pro is $24/month,
 <small>Image: RoomSketcher (official website)</small>
 
 [Read the full review →](/reviews/roomsketcher-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Planner 5D
 
@@ -45,6 +51,10 @@ A 2D/3D home design editor on web and mobile. Premium is $19.99/month or $59.99/
 
 [Read the full review →](/reviews/planner-5d-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Coohom
 
 Combines a 2D floor planner, a 3D room designer and cloud rendering. Free Basic plan; Pro and Elite listed at $29 and $69 (billing period not confirmed).
@@ -54,6 +64,10 @@ Combines a 2D floor planner, a 3D room designer and cloud rendering. Free Basic 
 <small>Image: Coohom (official website)</small>
 
 [Read the full review →](/reviews/coohom-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. Homestyler
 
@@ -65,6 +79,10 @@ Cloud-based 3D design with a large furniture library and cloud rendering. Basic 
 
 [Read the full review →](/reviews/homestyler-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. Floorplanner
 
 A browser floor plan and 3D room planner. Free account for up to 5 projects; upgrades use credits (from $8.15 for 5).
@@ -75,6 +93,10 @@ A browser floor plan and 3D room planner. Free account for up to 5 projects; upg
 
 [Read the full review →](/reviews/floorplanner-review/)
 
+</div>
+
+<div class="pick">
+
 ## 6. Live Home 3D
 
 Multi-platform floor plan and 3D design app. Mac lifetime licence from $59.99; subscription from $19.99/year.
@@ -84,5 +106,7 @@ Multi-platform floor plan and 3D design app. Mac lifetime licence from $59.99; s
 <small>Image: BeLight Software (official website)</small>
 
 [Read the full review →](/reviews/live-home-3d-review/)
+
+</div>
 
 *Based on prices and features published on each vendor's own site (read 12 October 2026). We have not yet tested these tools hands-on; each review says what is and is not verified. Prices in USD excluding tax unless stated.*

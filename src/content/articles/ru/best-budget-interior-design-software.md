@@ -25,6 +25,8 @@ lang: ru
 
 [Сравнить эти программы →](/ru/compare-tools/#live-home-3d,planner-5d,homestyler,sketchup)
 
+<div class="pick top">
+
 ## 1. Live Home 3D — Наш выбор
 
 Подписка Standard $19.99 в год (около $1.67 в месяц) на Windows, iOS и Android; лицензия для Mac навсегда от $59.99. Самая низкая проверенная годовая цена в списке.
@@ -34,6 +36,10 @@ lang: ru
 <small>Image: BeLight Software (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/live-home-3d-review/)
+
+</div>
+
+<div class="pick">
 
 ## 2. Planner 5D
 
@@ -45,6 +51,10 @@ Premium $59.99 в год (около $5 в месяц), есть бесплат�
 
 [Читать обзор (на английском) →](/reviews/planner-5d-review/)
 
+</div>
+
+<div class="pick">
+
 ## 3. Homestyler
 
 Pro+ от $6.8 в месяц; Basic бесплатный.
@@ -54,6 +64,10 @@ Pro+ от $6.8 в месяц; Basic бесплатный.
 <small>Image: Homestyler (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/homestyler-review/)
+
+</div>
+
+<div class="pick">
 
 ## 4. SketchUp
 
@@ -65,6 +79,10 @@ Go стоит $10.75 в месяц при оплате за год, для iPad 
 
 [Читать обзор (на английском) →](/reviews/sketchup-review/)
 
+</div>
+
+<div class="pick">
+
 ## 5. RoomSketcher
 
 Pro стоит $12 в месяц при оплате $144 в год; есть бесплатный тариф.
@@ -74,5 +92,7 @@ Pro стоит $12 в месяц при оплате $144 в год; есть б
 <small>Image: RoomSketcher (official website)</small>
 
 [Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+
+</div>
 
 *Основано на ценах и функциях, опубликованных на сайтах вендоров (на 12 октября 2026). Мы пока не тестировали программы сами; в каждом обзоре указано, что проверено, а что нет. Цены в USD без налогов, если не указано иное.*

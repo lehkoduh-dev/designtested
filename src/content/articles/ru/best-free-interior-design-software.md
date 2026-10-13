@@ -17,12 +17,12 @@ lang: ru
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [Sweet Home 3D](/reviews/sweet-home-3d-review/) | Free, open source | Да |
-| [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
-| [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
-| [Floorplanner](/reviews/floorplanner-review/) | Credits from $8.15 (5 credits) | Да |
-| [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Да |
-| [Blender](/reviews/blender-review/) | Free | Да |
+| [Sweet Home 3D](/ru/reviews/sweet-home-3d-review/) | Free, open source | Да |
+| [Homestyler](/ru/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
+| [RoomSketcher](/ru/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
+| [Floorplanner](/ru/reviews/floorplanner-review/) | Free; Plus $5/month, Pro $29/month (credits-based) | Да |
+| [D5 Render](/ru/reviews/d5-render-review/) | Pro $30/month (yearly) — homepage says from $38/month | Да |
+| [Blender](/ru/reviews/blender-review/) | Free | Да |
 
 [Сравнить эти программы →](/ru/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)
 
@@ -36,7 +36,7 @@ lang: ru
 
 <small>Image: eTeks (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/sweet-home-3d-review/)
+[Читать обзор (на английском) →](/ru/reviews/sweet-home-3d-review/)
 
 </div>
 
@@ -50,7 +50,7 @@ lang: ru
 
 <small>Image: Homestyler (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/homestyler-review/)
+[Читать обзор (на английском) →](/ru/reviews/homestyler-review/)
 
 </div>
 
@@ -64,7 +64,7 @@ lang: ru
 
 <small>Image: RoomSketcher (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+[Читать обзор (на английском) →](/ru/reviews/roomsketcher-review/)
 
 </div>
 
@@ -78,7 +78,7 @@ lang: ru
 
 <small>Image: Floorplanner (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/floorplanner-review/)
+[Читать обзор (на английском) →](/ru/reviews/floorplanner-review/)
 
 </div>
 
@@ -92,7 +92,7 @@ lang: ru
 
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
-[Читать обзор (на английском) →](/reviews/d5-render-review/)
+[Читать обзор (на английском) →](/ru/reviews/d5-render-review/)
 
 </div>
 
@@ -106,7 +106,7 @@ lang: ru
 
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
-[Читать обзор (на английском) →](/reviews/blender-review/)
+[Читать обзор (на английском) →](/ru/reviews/blender-review/)
 
 </div>
 

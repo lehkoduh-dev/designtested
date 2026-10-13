@@ -17,11 +17,11 @@ lang: ru
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; subscription from $19.99/year | Да |
-| [Planner 5D](/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Да |
-| [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
-| [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | Нет |
-| [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
+| [Live Home 3D](/ru/reviews/live-home-3d-review/) | Mac lifetime from $59.99; Pro lifetime $129.99 on Windows/mobile | Да |
+| [Planner 5D](/ru/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Да |
+| [Homestyler](/ru/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
+| [SketchUp](/ru/reviews/sketchup-review/) | Go $10.75/month, Pro $33.25/month (annual); monthly Go $19.99, Pro $99.99 | Нет |
+| [RoomSketcher](/ru/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
 
 [Сравнить эти программы →](/ru/compare-tools/#live-home-3d,planner-5d,homestyler,sketchup)
 
@@ -35,7 +35,7 @@ lang: ru
 
 <small>Image: BeLight Software (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/live-home-3d-review/)
+[Читать обзор (на английском) →](/ru/reviews/live-home-3d-review/)
 
 </div>
 
@@ -49,7 +49,7 @@ Premium $59.99 в год (около $5 в месяц), есть бесплат�
 
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
-[Читать обзор (на английском) →](/reviews/planner-5d-review/)
+[Читать обзор (на английском) →](/ru/reviews/planner-5d-review/)
 
 </div>
 
@@ -63,7 +63,7 @@ Pro+ от $6.8 в месяц; Basic бесплатный.
 
 <small>Image: Homestyler (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/homestyler-review/)
+[Читать обзор (на английском) →](/ru/reviews/homestyler-review/)
 
 </div>
 
@@ -77,7 +77,7 @@ Go стоит $10.75 в месяц при оплате за год, для iPad 
 
 <small>Image: Trimble SketchUp (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/sketchup-review/)
+[Читать обзор (на английском) →](/ru/reviews/sketchup-review/)
 
 </div>
 
@@ -91,7 +91,7 @@ Pro стоит $12 в месяц при оплате $144 в год; есть б
 
 <small>Image: RoomSketcher (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+[Читать обзор (на английском) →](/ru/reviews/roomsketcher-review/)
 
 </div>
 

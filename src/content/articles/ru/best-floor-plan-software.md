@@ -1,6 +1,6 @@
 ---
 title: "Лучшие программы для планировки интерьера в 2026 году"
-description: "Шесть программ для планировок и 3D-дизайна дома: сравнение по опубликованным ценам, бесплатным вариантам и результату. Наш выбор — первым."
+description: "Семь программ для планировок и 3D-дизайна дома: сравнение по опубликованным ценам, бесплатным вариантам и результату. Наш выбор — первым."
 section: best
 updated: 2026-10-13
 draft: false
@@ -9,7 +9,7 @@ imageCredit: "RoomSketcher (official website)"
 lang: ru
 ---
 
-Программы для планировок превращают комнату в чертёж, который можно показать клиенту. В списке шесть программ из наших обзоров: от бесплатных до профессиональных.
+Программы для планировок превращают комнату в чертёж, который можно показать клиенту. В списке семь программ из наших обзоров: от бесплатных до профессиональных.
 
 ## Как мы выбирали
 
@@ -17,12 +17,13 @@ lang: ru
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
-| [Planner 5D](/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Да |
-| [Coohom](/reviews/coohom-review/) | Pro $29, Elite $69 (billing period not confirmed) | Да |
-| [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
-| [Floorplanner](/reviews/floorplanner-review/) | Credits from $8.15 (5 credits) | Да |
-| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; subscription from $19.99/year | Да |
+| [RoomSketcher](/ru/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Да |
+| [Planner 5D](/ru/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Да |
+| [Coohom](/ru/reviews/coohom-review/) | Pro $29/month or $25/month billed yearly; Elite $69 per seat monthly | Да |
+| [Homestyler](/ru/reviews/homestyler-review/) | Pro+ from $6.8/month | Да |
+| [Floorplanner](/ru/reviews/floorplanner-review/) | Free; Plus $5/month, Pro $29/month (credits-based) | Да |
+| [Live Home 3D](/ru/reviews/live-home-3d-review/) | Mac lifetime from $59.99; Pro lifetime $129.99 on Windows/mobile | Да |
+| [HomeByMe](/ru/reviews/homebyme-review/) | Essentials $29/month ($25 yearly); Pro $65/month ($53 yearly) | Да |
 
 [Сравнить эти программы →](/ru/compare-tools/#roomsketcher,planner-5d,coohom,homestyler)
 
@@ -36,7 +37,7 @@ lang: ru
 
 <small>Image: RoomSketcher (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/roomsketcher-review/)
+[Читать обзор (на английском) →](/ru/reviews/roomsketcher-review/)
 
 </div>
 
@@ -50,7 +51,7 @@ lang: ru
 
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
-[Читать обзор (на английском) →](/reviews/planner-5d-review/)
+[Читать обзор (на английском) →](/ru/reviews/planner-5d-review/)
 
 </div>
 
@@ -58,13 +59,13 @@ lang: ru
 
 ## 3. Coohom
 
-Объединяет 2D-планировщик, 3D-редактор комнат и облачный рендер. Бесплатный Basic; Pro и Elite указаны как $29 и $69 (период оплаты не подтверждён).
+Объединяет 2D-планировщик, 3D-редактор комнат и облачный рендер. Бесплатный Basic; Pro стоит $29 в месяц ($25 в месяц при оплате за год), Elite $69 за место в месяц.
 
 ![Coohom](/img/tools/coohom-review.jpg)
 
 <small>Image: Coohom (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/coohom-review/)
+[Читать обзор (на английском) →](/ru/reviews/coohom-review/)
 
 </div>
 
@@ -78,7 +79,7 @@ lang: ru
 
 <small>Image: Homestyler (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/homestyler-review/)
+[Читать обзор (на английском) →](/ru/reviews/homestyler-review/)
 
 </div>
 
@@ -86,13 +87,13 @@ lang: ru
 
 ## 5. Floorplanner
 
-Планировщик квартир и 3D-комнат в браузере. Бесплатно до 5 проектов; улучшения за кредиты (от $8.15 за 5).
+Планировщик квартир и 3D-комнат в браузере. Бесплатно до 5 проектов; Plus стоит $5 в месяц, Pro $29 в месяц, улучшения за кредиты.
 
 ![Floorplanner](/img/tools/floorplanner-review.jpg)
 
 <small>Image: Floorplanner (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/floorplanner-review/)
+[Читать обзор (на английском) →](/ru/reviews/floorplanner-review/)
 
 </div>
 
@@ -100,13 +101,27 @@ lang: ru
 
 ## 6. Live Home 3D
 
-Приложение для планировок и 3D-дизайна на разных платформах. Лицензия для Mac навсегда от $59.99; подписка от $19.99 в год.
+Приложение для планировок и 3D-дизайна на разных платформах. Лицензия для Mac навсегда от $59.99; Pro навсегда $129.99 на Windows и мобильных.
 
 ![Live Home 3D](/img/tools/live-home-3d-review.jpg)
 
 <small>Image: BeLight Software (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/live-home-3d-review/)
+[Читать обзор (на английском) →](/ru/reviews/live-home-3d-review/)
+
+</div>
+
+<div class="pick">
+
+## 7. HomeByMe
+
+Онлайн 3D-дизайн дома с бесплатным тарифом Starter; Essentials стоит $29 в месяц ($25 в месяц при оплате за год), Pro $65 в месяц ($53 в месяц при оплате за год).
+
+![HomeByMe](/img/tools/homebyme-review.jpg)
+
+<small>Image: Screenshot of the official website, 13 October 2026</small>
+
+[Читать обзор (на английском) →](/ru/reviews/homebyme-review/)
 
 </div>
 

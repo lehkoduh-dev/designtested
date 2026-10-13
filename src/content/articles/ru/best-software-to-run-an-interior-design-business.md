@@ -13,13 +13,13 @@ lang: ru
 
 ## Как мы выбирали
 
-Мы сравнили, что вендоры заявляют о своих продуктах, и что публикуют о цене. Страница цен Houzz Pro не открывалась, когда мы проверяли, поэтому цену мы не указываем. Desenta — наш собственный продукт, он помечен, и мы его не ранжируем.
+Мы сравнили, что вендоры заявляют о своих продуктах, и что публикуют о цене. Desenta — наш собственный продукт, он помечен, и мы его не ранжируем.
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [Houzz Pro](/reviews/houzz-pro-review/) | Pricing page unavailable when checked | Пробный период |
-| [DesignFiles](/reviews/designfiles-review/) | 55/month (e-Design), 75/month (Full Service) | Нет |
-| [Desenta (our own product)](/reviews/desenta-review/) | Free; Core €19/month, Pro €39/month | Да |
+| [Houzz Pro](/ru/reviews/houzz-pro-review/) | Design $99/month, Pro $199/month, Teams from $399/month | Пробный период |
+| [DesignFiles](/ru/reviews/designfiles-review/) | $55/month (e-Design), $75/month (Full Service) | Нет |
+| [Desenta (our own product)](/ru/reviews/desenta-review/) | Free; Core €19/month, Pro €39/month | Да |
 
 [Сравнить эти программы →](/ru/compare-tools/#houzz-pro,designfiles,desenta)
 
@@ -27,9 +27,9 @@ lang: ru
 
 ## 1. Houzz Pro
 
-Программа управления бизнесом для подрядчиков и дизайнеров: дизайн, предложения, счета и управление проектами в одной системе. Есть пробный период.
+Программа управления бизнесом для подрядчиков и дизайнеров: дизайн, предложения, счета и управление проектами в одной системе. Тариф Design $99 в месяц, Pro $199 в месяц, Teams от $399 в месяц; есть пробный период.
 
-[Читать обзор (на английском) →](/reviews/houzz-pro-review/)
+[Читать обзор (на английском) →](/ru/reviews/houzz-pro-review/)
 
 </div>
 
@@ -43,7 +43,7 @@ lang: ru
 
 <small>Image: DesignFiles (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/designfiles-review/)
+[Читать обзор (на английском) →](/ru/reviews/designfiles-review/)
 
 </div>
 
@@ -57,7 +57,7 @@ White-label платформа для презентации и сдачи пр�
 
 <small>Image: Desenta (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/desenta-review/)
+[Читать обзор (на английском) →](/ru/reviews/desenta-review/)
 
 </div>
 

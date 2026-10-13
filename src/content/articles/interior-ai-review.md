@@ -2,12 +2,15 @@
 title: "Interior AI Review 2026: Photo-to-Redesign Tool With Subscription Plans"
 description: "An overview of Interior AI, a web app that redesigns uploaded interior photos with AI, and the plans published on its site."
 section: reviews
-updated: 2026-10-12
+updated: 2026-10-13
 draft: false
 image: /img/tools/interior-ai-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026
 vendor: "Interior AI"
 officialUrl: "https://interiorai.com/"
+bestFor: "Homeowners, real-estate marketers and designers who want fast style variations or virtual staging from a photo, sketch or SketchUp screenshot."
+notFor: "Anyone who needs measured floor plans, drawings or documentation, or who wants a free tier, since the pricing section shows paid plans only."
+verdict: "Interior AI's published pitch is quick AI redesigns from an uploaded photo, with several modes and a commercial licence on every listed plan. From the pricing page alone it is a concept-visualisation tool and a subscription commitment, so check output quality before paying."
 ---
 
 *Based on the vendor's published information; hands-on notes will be added.*
@@ -50,6 +53,17 @@ Pro includes a commercial use licence. Render quality, parallel renders and extr
 - Subscription only, with no free tier visible on the pricing section.
 - Editing tools, video and higher render quality sit on the Premium and Ultra plans.
 - The vendor flags its prompt feature as experimental and says it may give random or bad results.
+
+## FAQ
+
+**How long does a design take?**
+The vendor's FAQ says it takes about 25 seconds to design one interior and that you can render up to 16 designs at the same time.
+
+**What file types are accepted?**
+JPG, PNG, WebP and AVIF. HEIC is not supported, so those photos need converting to JPG first, per the FAQ read 13 October 2026.
+
+**What happens to my photos?**
+The vendor says it uses your photos only to create the renders, does not train on them, and that uploads and renders are accessible only by you.
 
 ## Alternatives
 

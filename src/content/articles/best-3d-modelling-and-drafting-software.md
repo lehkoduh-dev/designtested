@@ -16,12 +16,13 @@ We compared published pricing and the purpose each vendor describes: general 3D 
 
 | Tool | Price | Free option |
 |---|---|---|
-| [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | No |
+| [SketchUp](/reviews/sketchup-review/) | Go $10.75/month, Pro $33.25/month (annual); monthly Go $19.99, Pro $99.99 | No |
 | [Chief Architect Premier](/reviews/chief-architect-review/) | $1,995/year or $229/month | No |
+| [AutoCAD](/reviews/autocad-review/) | $2,095/year or $260/month | Trial |
 | [Blender](/reviews/blender-review/) | Free | Yes |
 | [Morpholio Trace](/reviews/morpholio-trace-review/) | In-app subscriptions $4.99–$24.99 (periods not stated) | Yes |
 
-[Compare these tools →](/compare-tools/#sketchup,chief-architect,blender,morpholio-trace)
+[Compare these tools →](/compare-tools/#sketchup,chief-architect,autocad,blender)
 
 <div class="pick top">
 
@@ -53,7 +54,21 @@ Professional residential design: drawing walls and objects generates a 3D model,
 
 <div class="pick">
 
-## 3. Blender
+## 3. AutoCAD
+
+Professional 2D and 3D drafting software from Autodesk, for technical drawings rather than quick visuals. $2,095/year or $260/month, with a 15-day free trial.
+
+![AutoCAD](/img/tools/autocad-review.jpg)
+
+<small>Image: Screenshot of the official website, 13 October 2026</small>
+
+[Read the full review →](/reviews/autocad-review/)
+
+</div>
+
+<div class="pick">
+
+## 4. Blender
 
 Free open-source 3D suite. Not interior-specific; the best price, but you do more of the work.
 
@@ -67,7 +82,7 @@ Free open-source 3D suite. Not interior-specific; the best price, but you do mor
 
 <div class="pick">
 
-## 4. Morpholio Trace
+## 5. Morpholio Trace
 
 Sketching and markup on iPhone and iPad, for developing ideas in layers. Free tier plus in-app subscriptions.
 

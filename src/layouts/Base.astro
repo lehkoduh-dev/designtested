@@ -29,6 +29,12 @@ const nav = t.nav.map((n) => ({ href: prefix + n.path, label: n.label }));
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="theme-color" content="#0A0F1F" />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': [
+      { '@type': 'Organization', '@id': 'https://designtested.com/#org', name: 'DesignTested', url: 'https://designtested.com/', logo: 'https://designtested.com/brand/logo-mark.svg' },
+      { '@type': 'WebSite', '@id': 'https://designtested.com/#site', url: 'https://designtested.com/', name: 'DesignTested', publisher: { '@id': 'https://designtested.com/#org' }, inLanguage: lang, potentialAction: { '@type': 'SearchAction', target: 'https://designtested.com/search/?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+    ] })} />
+    <slot name="head" />
+
     <meta property="og:image" content="https://designtested.com/brand/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preload" href="/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -106,7 +112,7 @@ const nav = t.nav.map((n) => ({ href: prefix + n.path, label: n.label }));
       th { color: var(--muted); font-weight: 600; }
       .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
       @media (max-width: 600px) { table { display: block; overflow-x: auto; } }
-      article img{max-width:100%;height:auto;max-height:420px;object-fit:contain;display:block;margin:1rem 0;border-radius:8px;background:#fff}  .pick{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 20px 14px;margin:18px 0}.pick.top{border-color:var(--accent2);box-shadow:0 0 0 1px var(--accent2) inset}.pick h2{margin-top:.8em}.pick img{max-height:300px;margin:.6rem 0}.pick small{color:var(--muted)}figure.hero{margin:1.2rem 0}figure.hero img{width:100%;height:auto;max-height:420px;object-fit:contain;background:#fff;border-radius:8px;display:block}figure.hero figcaption{font-size:.8rem;color:var(--muted,#666);margin-top:.4rem}
+      article img{max-width:100%;height:auto;max-height:420px;object-fit:contain;display:block;margin:1rem 0;border-radius:8px;background:#fff}  .pick{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 20px 14px;margin:18px 0}.pick.top{border-color:var(--accent2);box-shadow:0 0 0 1px var(--accent2) inset}.pick h2{margin-top:.8em}.pick img{max-height:300px;margin:.6rem 0}.pick small{color:var(--muted)}  .quick{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:12px;padding:4px 18px 10px;margin:18px 0}.quick h2{margin:.6em 0 .3em;font-size:1.1rem}.quick p{margin:.35em 0}figure.hero{margin:1.2rem 0}figure.hero img{width:100%;height:auto;max-height:420px;object-fit:contain;background:#fff;border-radius:8px;display:block}figure.hero figcaption{font-size:.8rem;color:var(--muted,#666);margin-top:.4rem}
     </style>
     <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "5143b7b0d1c2424fb672104d72b770b4"}'></script>
   </body>

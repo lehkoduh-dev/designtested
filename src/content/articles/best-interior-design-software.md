@@ -14,7 +14,7 @@ Choosing interior design software is mostly a question of what you need to hand 
 
 | If you need… | Look at | Starting price (published) |
 |---|---|---|
-| Fast renders for client presentations | Foyr Neo | $39/month, or $33/month billed yearly |
+| Fast renders for client presentations | Foyr Neo | $39/month (Basic) |
 | Floor plans and 3D visuals with a free tier | RoomSketcher | Free; Pro $24/month or $12/month billed yearly |
 | Full 3D modelling and documentation | SketchUp | Go $10.75/month, Pro $33.25/month (billed annually) |
 | A free tool to sketch layouts | Sweet Home 3D | Free (open source) |
@@ -23,7 +23,7 @@ Choosing interior design software is mostly a question of what you need to hand 
 
 ## Foyr Neo
 
-Foyr Neo is aimed at interior designers who want to go from a floor plan to a rendered scene quickly. Its published plans are Basic ($39/month, $33/month billed yearly), Standard ($89/month, $67/month yearly) and Premium ($159/month, $103/month yearly), with a 14-day free trial on all plans. Plans differ mainly in monthly render credits and in seats; the pricing page shows different credit numbers in different places, so check the current allowance for your plan before you subscribe.
+Foyr Neo is aimed at interior designers who want to go from a floor plan to a rendered scene quickly. Its published plans are Basic ($39/month), Standard ($89/month) and Premium ($159/month), with a 14-day free trial on all plans. Plans differ mainly in monthly render credits and in seats; the pricing page shows different credit numbers in different places, so check the current allowance for your plan before you subscribe.
 
 ## RoomSketcher
 
@@ -52,6 +52,5 @@ Cedreo offers Free, Personal, Pro and Enterprise plans. The Free plan is limited
 3. **You build custom furniture or detailed models:** SketchUp Pro.
 4. **You are just starting out or want to experiment:** Sweet Home 3D or the free tiers of RoomSketcher and Planner 5D cost nothing.
 
-If you also want to run your studio from the same place, see our guide to [CRM and proposal tools for interior designers](/business-tools/).
 
 *Disclosure: this article may contain affiliate links in the future. See our [affiliate disclosure](/affiliate-disclosure/) and [how we test](/how-we-test/).*

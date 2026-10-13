@@ -1,6 +1,6 @@
 ---
 title: "Best Floor Plan Software for Interior Designers in 2026"
-description: "Six floor plan and home design tools compared by published price, free options and what they produce, with our pick first."
+description: "Seven floor plan and home design tools compared by published price, free options and what they produce, with our pick first."
 section: best
 updated: 2026-10-13
 draft: false
@@ -8,7 +8,7 @@ image: /img/tools/roomsketcher-review.jpg
 imageCredit: "RoomSketcher (official website)"
 ---
 
-Floor plan tools turn a room into a drawing you can show a client. This list covers six that we reviewed, from free to professional.
+Floor plan tools turn a room into a drawing you can show a client. This list covers seven that we reviewed, from free to professional.
 
 ## How we chose
 
@@ -18,10 +18,11 @@ We looked at what each vendor publishes: whether there is a free plan, the entry
 |---|---|---|
 | [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Yes |
 | [Planner 5D](/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Yes |
-| [Coohom](/reviews/coohom-review/) | Pro $29, Elite $69 (billing period not confirmed) | Yes |
+| [Coohom](/reviews/coohom-review/) | Pro $29/month or $25/month billed yearly; Elite $69 per seat monthly | Yes |
 | [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Yes |
-| [Floorplanner](/reviews/floorplanner-review/) | Credits from $8.15 (5 credits) | Yes |
-| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; subscription from $19.99/year | Yes |
+| [Floorplanner](/reviews/floorplanner-review/) | Free; Plus $5/month, Pro $29/month (credits-based) | Yes |
+| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; Pro lifetime $129.99 on Windows/mobile | Yes |
+| [HomeByMe](/reviews/homebyme-review/) | Essentials $29/month ($25 yearly); Pro $65/month ($53 yearly) | Yes |
 
 [Compare these tools →](/compare-tools/#roomsketcher,planner-5d,coohom,homestyler)
 
@@ -57,7 +58,7 @@ A 2D/3D home design editor on web and mobile. Premium is $19.99/month or $59.99/
 
 ## 3. Coohom
 
-Combines a 2D floor planner, a 3D room designer and cloud rendering. Free Basic plan; Pro and Elite listed at $29 and $69 (billing period not confirmed).
+Combines a 2D floor planner, a 3D room designer and cloud rendering. Free Basic plan; Pro is $29/month ($25/month billed yearly) and Elite $69 per seat monthly.
 
 ![Coohom](/img/tools/coohom-review.jpg)
 
@@ -85,7 +86,7 @@ Cloud-based 3D design with a large furniture library and cloud rendering. Basic 
 
 ## 5. Floorplanner
 
-A browser floor plan and 3D room planner. Free account for up to 5 projects; upgrades use credits (from $8.15 for 5).
+A browser floor plan and 3D room planner. Free account for up to 5 projects; Plus is $5/month and Pro $29/month, with credits for upgrades.
 
 ![Floorplanner](/img/tools/floorplanner-review.jpg)
 
@@ -99,13 +100,27 @@ A browser floor plan and 3D room planner. Free account for up to 5 projects; upg
 
 ## 6. Live Home 3D
 
-Multi-platform floor plan and 3D design app. Mac lifetime licence from $59.99; subscription from $19.99/year.
+Multi-platform floor plan and 3D design app. Mac lifetime licence from $59.99; Pro lifetime $129.99 on Windows and mobile.
 
 ![Live Home 3D](/img/tools/live-home-3d-review.jpg)
 
 <small>Image: BeLight Software (official website)</small>
 
 [Read the full review →](/reviews/live-home-3d-review/)
+
+</div>
+
+<div class="pick">
+
+## 7. HomeByMe
+
+Online 3D home design with a free Starter plan; Essentials is $29/month ($25/month billed yearly) and Pro $65/month ($53/month billed yearly).
+
+![HomeByMe](/img/tools/homebyme-review.jpg)
+
+<small>Image: Screenshot of the official website, 13 October 2026</small>
+
+[Read the full review →](/reviews/homebyme-review/)
 
 </div>
 

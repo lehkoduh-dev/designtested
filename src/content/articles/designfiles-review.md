@@ -8,6 +8,9 @@ vendor: "DesignFiles"
 officialUrl: "https://designfiles.co/"
 image: "/img/tools/designfiles-review.jpg"
 imageCredit: "DesignFiles (official website)"
+bestFor: "Practising interior designers and decorators, from online e-design to full-service, who want visuals, quotes, invoices and client communication in one system."
+notFor: "Designers who only need rendering or visualisation, and teams on a tight budget, since extra users cost $30 per month each and the vendor says CRM and accounting software are not included."
+verdict: "DesignFiles combines design visuals with business tools such as quotes, invoicing and a client portal, on month-to-month plans with a stated 90-day money-back guarantee. Its testimonials and statistics are marketing claims, and we have not tested the product."
 ---
 
 *Based on the vendor's published information; hands-on notes will be added.*
@@ -32,8 +35,8 @@ Practising interior designers and decorators. Its two paid plans are aimed at on
 
 Published on designfiles.co/plans on 12 October 2026 (figures shown on the page; the page does not state VAT treatment):
 
-- e-Design: 55 per month
-- Full Service: 75 per month
+- e-Design: $55 per month
+- Full Service: $75 per month
 - Additional users: +$30 per month each
 - Enterprise: call for pricing
 
@@ -54,3 +57,14 @@ Both paid plans list unlimited projects. The site says there is no annual contra
 ## Alternatives
 
 See [Houzz Pro](/reviews/houzz-pro-review/) for another business-management platform, or [Foyr Neo](/reviews/foyr-neo-review/) if rendering is your main need.
+
+## FAQ
+
+**Can I add my team?**
+Yes. The vendor's FAQ (designfiles.co/plans, read 13 October 2026) says you can add or remove members and set their level of access; additional users are +$30 per month.
+
+**Are there steps I would still need other software for?**
+The vendor says CRM and accounting software are not part of DesignFiles, though QuickBooks can be connected.
+
+**Am I locked into a contract?**
+No. The FAQ says there is no annual contract and you pay for the months you use it, backed by a 90-day money-back guarantee.

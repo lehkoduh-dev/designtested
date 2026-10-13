@@ -2,12 +2,15 @@
 title: "Foyr Neo Review 2026: Pricing, Features and Alternatives"
 description: "A review of Foyr Neo, a rendering-focused design tool for interior designers, based on the vendor's published information."
 section: reviews
-updated: 2026-10-12
+updated: 2026-10-13
 draft: false
 image: /img/tools/foyr-neo-review.jpg
 imageCredit: Foyr (official website, product demo)
 vendor: "Foyr"
 officialUrl: "https://foyr.com"
+bestFor: "Interior designers and small studios that want floor planning, 3D modelling and rendering in a single application, and that value a free trial and clear render allowances."
+notFor: "Occasional users or hobbyists on a tight budget, and heavy renderers who would need the Standard or Premium plan to get past 30 render credits a month."
+verdict: "Foyr Neo's published pitch is an all-in-one planning and rendering tool for designers, priced monthly by render credits. From the listed plans, it fits working studios better than casual users, and the cost depends on how many renders you need."
 ---
 
 *Based on the vendor's published information; hands-on notes will be added.*
@@ -43,6 +46,17 @@ A 14-day free trial is offered, and the vendor states no credit card is required
 - Higher monthly prices than most tools in this batch.
 - Basic plan has only 30 render credits per month.
 - Credit-based rendering means heavy users need Standard or Premium.
+
+## FAQ
+
+**Do I need a credit card for the trial?**
+Per Foyr's pricing page FAQ, no card details are required to start the 14-day free trial, and all Neo features can be used during it.
+
+**When am I billed and in what currency?**
+The FAQ says your card is charged on the date of purchase and on each monthly or yearly anniversary. It lists USD, INR, CAD, GBP, AUD and EUR as accepted currencies, read 13 October 2026.
+
+**How does changing plan work?**
+You can upgrade or downgrade at any time. An upgrade is pro-rated for the rest of the month, and a downgrade is credited on the next month's bill, per the vendor.
 
 ## Alternatives
 - [Planner 5D](/reviews/planner-5d-review/) for a cheaper plan with 4K renders on its Professional tier.

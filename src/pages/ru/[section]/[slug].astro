@@ -16,6 +16,7 @@ const date = entry.data.updated.toISOString().slice(0, 10);
 const t = T.ru;
 ---
 <Base lang="ru" title={entry.data.title} description={entry.data.description} alt={null}>
+  <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: entry.data.title, description: entry.data.description, dateModified: date, inLanguage: 'ru', author: { '@type': 'Organization', name: 'DesignTested' }, publisher: { '@type': 'Organization', name: 'DesignTested' }, ...(entry.data.image ? { image: 'https://designtested.com' + entry.data.image } : {}) })} />
   <article>
     <h1>{entry.data.title}</h1>
     <p class="meta">{t.lastUpdated} {date} · {t.byTeam}</p>
@@ -25,6 +26,14 @@ const t = T.ru;
         <img src={entry.data.image} alt={entry.data.vendor ?? entry.data.title} loading="lazy" width="1024" />
         <figcaption>Image: {entry.data.imageCredit ?? 'official website'}{entry.data.officialUrl && <> · <a href={entry.data.officialUrl} rel="nofollow noopener" target="_blank">Official site</a></>}</figcaption>
       </figure>
+    )}
+    {(entry.data.bestFor || entry.data.verdict) && (
+      <div class="quick">
+        <h2>Коротко</h2>
+        {entry.data.bestFor && <p><b>Подойдёт:</b> {entry.data.bestFor}</p>}
+        {entry.data.notFor && <p><b>Не подойдёт:</b> {entry.data.notFor}</p>}
+        {entry.data.verdict && <p><b>Наш вывод:</b> {entry.data.verdict}</p>}
+      </div>
     )}
     <Content />
   </article>

@@ -1,0 +1,35 @@
+---
+const { lang = 'en' } = Astro.props;
+const ru = lang === 'ru';
+---
+<form id="sf" role="search" action={ru ? '/ru/search/' : '/search/'}>
+  <input id="q" name="q" type="search" placeholder={ru ? 'Поиск программ и статей' : 'Search tools and articles'} autocomplete="off" />
+</form>
+<div id="res" class="blocks"></div>
+<p id="none" hidden>{ru ? 'Ничего не найдено.' : 'Nothing found.'}</p>
+<style>
+  #q{width:100%;font:inherit;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg)}
+  .blocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:18px 0}
+  .r{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--fg);text-decoration:none;display:block}
+  .r:hover{border-color:var(--accent)} .r b{display:block;margin-bottom:4px} .r span{color:var(--muted);font-size:.88rem} .r small{display:block;color:var(--accent2);text-transform:uppercase;font-size:.7rem;letter-spacing:.06em;margin-bottom:2px}
+  [hidden]{display:none!important}
+</style>
+<script define:vars={{ lang }}>
+  (async () => {
+    const q = document.getElementById('q'), res = document.getElementById('res'), none = document.getElementById('none');
+    let data = [];
+    try { data = await (await fetch('/search-index.json')).json(); } catch (e) {}
+    data = data.filter((x) => x.l === lang || x.l === 'all' || (lang === 'ru' && !data.some((y) => y.l === 'ru' && y.u.endsWith(x.u.split('/').slice(-3).join('/')))));
+    const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const run = () => {
+      const w = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!w.length) { res.innerHTML = ''; none.hidden = true; return; }
+      const hits = data.map((x) => { const h = (x.t + ' ' + x.d).toLowerCase(); let sc = 0; for (const k of w) { if (!h.includes(k)) return null; sc += x.t.toLowerCase().includes(k) ? 3 : 1; } return { x, sc }; }).filter(Boolean).sort((a, b) => b.sc - a.sc).slice(0, 24);
+      res.innerHTML = hits.map(({ x }) => `<a class="r" href="${x.u}"><small>${esc(x.s)}</small><b>${esc(x.t)}</b><span>${esc(x.d.slice(0, 120))}</span></a>`).join('');
+      none.hidden = hits.length > 0;
+    };
+    q.addEventListener('input', run);
+    document.getElementById('sf').addEventListener('submit', (e) => { e.preventDefault(); run(); });
+    q.value = new URLSearchParams(location.search).get('q') || ''; run();
+  })();
+</script>

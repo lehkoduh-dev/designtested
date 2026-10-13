@@ -16,7 +16,7 @@ We compared published prices, free options and the workflow each tool describes.
 
 | Tool | Price | Free option |
 |---|---|---|
-| [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Yes |
+| [D5 Render](/reviews/d5-render-review/) | Pro $30/month (yearly) — homepage says from $38/month | Yes |
 | [Enscape](/reviews/enscape-review/) | Solo $47.90/month, billed annually | No |
 | [Lumion](/reviews/lumion-review/) | Pro named user $1,149/year | No |
 | [Foyr Neo](/reviews/foyr-neo-review/) | From $39/month (Basic) | Trial |

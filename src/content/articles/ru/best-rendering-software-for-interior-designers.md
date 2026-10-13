@@ -17,11 +17,11 @@ lang: ru
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Да |
-| [Enscape](/reviews/enscape-review/) | Solo $47.90/month, billed annually | Нет |
-| [Lumion](/reviews/lumion-review/) | Pro named user $1,149/year | Нет |
-| [Foyr Neo](/reviews/foyr-neo-review/) | From $39/month (Basic) | Пробный период |
-| [Blender](/reviews/blender-review/) | Free | Да |
+| [D5 Render](/ru/reviews/d5-render-review/) | Pro $30/month (yearly) — homepage says from $38/month | Да |
+| [Enscape](/ru/reviews/enscape-review/) | Solo $47.90/month, billed annually | Нет |
+| [Lumion](/ru/reviews/lumion-review/) | Pro named user $1,149/year | Нет |
+| [Foyr Neo](/ru/reviews/foyr-neo-review/) | From $39/month (Basic) | Пробный период |
+| [Blender](/ru/reviews/blender-review/) | Free | Да |
 
 [Сравнить эти программы →](/ru/compare-tools/#d5-render,enscape,lumion,foyr-neo)
 
@@ -35,7 +35,7 @@ lang: ru
 
 <small>Image: Screenshot of the official website, 12 October 2026</small>
 
-[Читать обзор (на английском) →](/reviews/d5-render-review/)
+[Читать обзор (на английском) →](/ru/reviews/d5-render-review/)
 
 </div>
 
@@ -49,7 +49,7 @@ lang: ru
 
 <small>Image: Chaos (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/enscape-review/)
+[Читать обзор (на английском) →](/ru/reviews/enscape-review/)
 
 </div>
 
@@ -63,7 +63,7 @@ lang: ru
 
 <small>Image: Lumion (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/lumion-review/)
+[Читать обзор (на английском) →](/ru/reviews/lumion-review/)
 
 </div>
 
@@ -77,7 +77,7 @@ lang: ru
 
 <small>Image: Foyr (official website, product demo)</small>
 
-[Читать обзор (на английском) →](/reviews/foyr-neo-review/)
+[Читать обзор (на английском) →](/ru/reviews/foyr-neo-review/)
 
 </div>
 
@@ -91,7 +91,7 @@ lang: ru
 
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
-[Читать обзор (на английском) →](/reviews/blender-review/)
+[Читать обзор (на английском) →](/ru/reviews/blender-review/)
 
 </div>
 

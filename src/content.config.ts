@@ -14,6 +14,9 @@ const articles = defineCollection({
     imageCredit: z.string().optional(),
     officialUrl: z.string().optional(),
     vendor: z.string().optional(),
+    bestFor: z.string().optional(),
+    notFor: z.string().optional(),
+    verdict: z.string().optional(),
     affiliate: z.boolean().default(false),
   }),
 });

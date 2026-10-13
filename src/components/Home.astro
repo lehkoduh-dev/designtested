@@ -18,9 +18,9 @@ const rest = recent.filter((a) => a !== featured).slice(0, 6);
 const news = all.filter((a) => a.data.section === 'news' && a.data.lang === 'en').sort((x, y) => y.data.updated.valueOf() - x.data.updated.valueOf()).slice(0, 4);
 const L = ru
   ? { lede: 'Независимые обзоры и сравнения программ и оборудования для дизайнеров интерьера. Цены и функции берём с официальных сайтов.', browse: 'Каталог', compare: 'Сравнить программы', latest: 'Свежее', news: 'Новости', all: 'Все', catalog: 'В каталоге', free: 'Есть бесплатный вариант', sections: [
-      { href: '/software/', t: 'Каталог и обзоры', d: 'Все программы: фильтры, цены, сравнение.' }, { href: '/best/', t: 'Лучшее', d: 'Подборки по задачам с нашим выбором.' }, { href: '/gear/', t: 'Оборудование', d: 'Лазерные рулетки, планшеты, мониторы.' }, { href: '/business-tools/', t: 'Бизнес-инструменты', d: 'Клиенты, предложения, счета, проекты.' }, { href: '/news/', t: 'Новости', d: 'Новинки и обновления.' }] }
+      { href: '/software/', t: 'Каталог и обзоры', d: 'Все программы: фильтры, цены, сравнение.' }, { href: '/best/', t: 'Лучшее', d: 'Подборки по задачам с нашим выбором.' }, { href: '/gear/', t: 'Оборудование', d: 'Лазерные рулетки, планшеты, мониторы.' }, { href: '/guides/', t: 'Гайды', d: 'Как выбрать и с чего начать.' }, { href: '/news/', t: 'Новости', d: 'Новинки и обновления.' }] }
   : { lede: 'Independent reviews and side-by-side comparisons of the software and gear interior designers use. Prices and features come from the vendors’ own sites.', browse: 'Browse the catalog', compare: 'Compare tools', latest: 'Latest', news: 'News', all: 'All', catalog: 'In the catalog', free: 'Has a free option', sections: [
-      { href: '/software/', t: 'Software & reviews', d: 'Every tool: filters, prices, comparison.' }, { href: '/best/', t: 'Best of', d: 'Shortlists by job, with our pick.' }, { href: '/gear/', t: 'Gear', d: 'Laser measures, tablets, monitors.' }, { href: '/business-tools/', t: 'Business tools', d: 'Clients, proposals, invoices, projects.' }, { href: '/news/', t: 'News', d: 'New releases and updates.' }] };
+      { href: '/software/', t: 'Software & reviews', d: 'Every tool: filters, prices, comparison.' }, { href: '/best/', t: 'Best of', d: 'Shortlists by job, with our pick.' }, { href: '/gear/', t: 'Gear', d: 'Laser measures, tablets, monitors.' }, { href: '/guides/', t: 'Guides', d: 'How to choose and where to start.' }, { href: '/news/', t: 'News', d: 'New releases and updates.' }] };
 const fmt = (d: Date) => d.toISOString().slice(0, 10);
 const catalog = tools.filter((t) => fs.existsSync(`./public/img/tools/${t.slug}-review.jpg`)).slice(0, 8);
 const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 'Оборудование' : 'Gear', news: ru ? 'Новости' : 'News', guides: ru ? 'Гайд' : 'Guide', compare: ru ? 'Сравнение' : 'Compare', 'business-tools': ru ? 'Бизнес' : 'Business', reviews: ru ? 'Обзор' : 'Review' } as any)[s] ?? s;
@@ -28,6 +28,7 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
 <section class="hero-home">
   <h1>{T[lang as 'en' | 'ru'].tagline}</h1>
   <p class="lede">{L.lede}</p>
+  <form class="hs" action={`${P}/search/`}><input type="search" name="q" placeholder={ru ? 'Поиск программ и статей' : 'Search tools and articles'} /></form>
   <p class="cta"><a class="btn" href={`${P}/software/`}>{L.browse}</a> <a class="btn ghost" href={`${P}/compare-tools/`}>{L.compare}</a></p>
 </section>
 
@@ -56,7 +57,7 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
 <h2 class="sec">{L.catalog} <a href={`${P}/software/`}>{L.all} →</a></h2>
 <div class="strip">
   {catalog.map((t) => (
-    <a class="tool" href={`/reviews/${t.slug}-review/`}>
+    <a class="tool" href={`${P}/reviews/${t.slug}-review/`}>
       <img src={`/img/tools/${t.slug}-review.jpg`} alt={t.name} loading="lazy" />
       <b>{t.name}</b><span>{t.price}</span>
     </a>
@@ -69,6 +70,7 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
 
 <style>
   .hero-home{padding:8px 0 20px}
+  .hs input{width:100%;max-width:520px;font:inherit;padding:11px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg);margin:4px 0 14px}
   .cta{display:flex;gap:10px;flex-wrap:wrap}
   .btn{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;text-decoration:none;font-weight:600;padding:9px 18px;border-radius:10px}
   .btn.ghost{background:none;border:1px solid var(--line);color:var(--fg)}

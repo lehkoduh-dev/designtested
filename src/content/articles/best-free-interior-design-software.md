@@ -19,8 +19,8 @@ We included tools with a free plan or a free licence and noted the limits the ve
 | [Sweet Home 3D](/reviews/sweet-home-3d-review/) | Free, open source | Yes |
 | [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Yes |
 | [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Yes |
-| [Floorplanner](/reviews/floorplanner-review/) | Credits from $8.15 (5 credits) | Yes |
-| [D5 Render](/reviews/d5-render-review/) | Pro plans from $38/month | Yes |
+| [Floorplanner](/reviews/floorplanner-review/) | Free; Plus $5/month, Pro $29/month (credits-based) | Yes |
+| [D5 Render](/reviews/d5-render-review/) | Pro $30/month (yearly) — homepage says from $38/month | Yes |
 | [Blender](/reviews/blender-review/) | Free | Yes |
 
 [Compare these tools →](/compare-tools/#sweet-home-3d,homestyler,roomsketcher,floorplanner)

@@ -17,12 +17,13 @@ lang: ru
 
 | Программа | Цена | Бесплатно |
 |---|---|---|
-| [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | Нет |
-| [Chief Architect Premier](/reviews/chief-architect-review/) | $1,995/year or $229/month | Нет |
-| [Blender](/reviews/blender-review/) | Free | Да |
-| [Morpholio Trace](/reviews/morpholio-trace-review/) | In-app subscriptions $4.99–$24.99 (periods not stated) | Да |
+| [SketchUp](/ru/reviews/sketchup-review/) | Go $10.75/month, Pro $33.25/month (annual); monthly Go $19.99, Pro $99.99 | Нет |
+| [Chief Architect Premier](/ru/reviews/chief-architect-review/) | $1,995/year or $229/month | Нет |
+| [AutoCAD](/ru/reviews/autocad-review/) | $2,095/year or $260/month | Пробный период |
+| [Blender](/ru/reviews/blender-review/) | Free | Да |
+| [Morpholio Trace](/ru/reviews/morpholio-trace-review/) | In-app subscriptions $4.99–$24.99 (periods not stated) | Да |
 
-[Сравнить эти программы →](/ru/compare-tools/#sketchup,chief-architect,blender,morpholio-trace)
+[Сравнить эти программы →](/ru/compare-tools/#sketchup,chief-architect,autocad,blender)
 
 <div class="pick top">
 
@@ -34,7 +35,7 @@ lang: ru
 
 <small>Image: Trimble SketchUp (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/sketchup-review/)
+[Читать обзор (на английском) →](/ru/reviews/sketchup-review/)
 
 </div>
 
@@ -48,13 +49,27 @@ lang: ru
 
 <small>Image: Chief Architect (official website)</small>
 
-[Читать обзор (на английском) →](/reviews/chief-architect-review/)
+[Читать обзор (на английском) →](/ru/reviews/chief-architect-review/)
 
 </div>
 
 <div class="pick">
 
-## 3. Blender
+## 3. AutoCAD
+
+Профессиональное программное обеспечение Autodesk для 2D- и 3D-черчения: для технических чертежей, а не быстрых визуализаций. $2,095 в год или $260 в месяц, 15 дней бесплатно.
+
+![AutoCAD](/img/tools/autocad-review.jpg)
+
+<small>Image: Screenshot of the official website, 13 October 2026</small>
+
+[Читать обзор (на английском) →](/ru/reviews/autocad-review/)
+
+</div>
+
+<div class="pick">
+
+## 4. Blender
 
 Бесплатный 3D-пакет с открытым кодом. Не специализирован под интерьеры; лучшая цена, но работы больше.
 
@@ -62,13 +77,13 @@ lang: ru
 
 <small>Image: Blender Foundation / blender.org (website content licensed under Creative Commons Attribution, with exceptions per blender.org)</small>
 
-[Читать обзор (на английском) →](/reviews/blender-review/)
+[Читать обзор (на английском) →](/ru/reviews/blender-review/)
 
 </div>
 
 <div class="pick">
 
-## 4. Morpholio Trace
+## 5. Morpholio Trace
 
 Скетчи и пометки на iPhone и iPad, идеи слоями. Бесплатный уровень и подписки внутри приложения.
 
@@ -76,7 +91,7 @@ lang: ru
 
 <small>Image: Morpholio Trace (App Store listing)</small>
 
-[Читать обзор (на английском) →](/reviews/morpholio-trace-review/)
+[Читать обзор (на английском) →](/ru/reviews/morpholio-trace-review/)
 
 </div>
 

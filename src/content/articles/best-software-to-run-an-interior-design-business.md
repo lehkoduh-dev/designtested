@@ -12,12 +12,12 @@ Drawing and rendering tools make the design. These tools run the business around
 
 ## How we chose
 
-We compared what each vendor says its product covers and what it publishes about price. Houzz Pro's pricing page was unavailable when we checked, so we quote no price for it. Desenta is our own product and is labelled; we do not rank it.
+We compared what each vendor says its product covers and what it publishes about price. Desenta is our own product and is labelled; we do not rank it.
 
 | Tool | Price | Free option |
 |---|---|---|
-| [Houzz Pro](/reviews/houzz-pro-review/) | Pricing page unavailable when checked | Trial |
-| [DesignFiles](/reviews/designfiles-review/) | 55/month (e-Design), 75/month (Full Service) | No |
+| [Houzz Pro](/reviews/houzz-pro-review/) | Design $99/month, Pro $199/month, Teams from $399/month | Trial |
+| [DesignFiles](/reviews/designfiles-review/) | $55/month (e-Design), $75/month (Full Service) | No |
 | [Desenta (our own product)](/reviews/desenta-review/) | Free; Core €19/month, Pro €39/month | Yes |
 
 [Compare these tools →](/compare-tools/#houzz-pro,designfiles,desenta)
@@ -26,7 +26,7 @@ We compared what each vendor says its product covers and what it publishes about
 
 ## 1. Houzz Pro
 
-Business management software for contractors and design professionals: design, proposals, invoicing and project management in one system. Free trial offered.
+Business management software for contractors and design professionals: design, proposals, invoicing and project management in one system. Design plan $99/month, Pro $199/month, Teams from $399/month; free trial offered.
 
 [Read the full review →](/reviews/houzz-pro-review/)
 

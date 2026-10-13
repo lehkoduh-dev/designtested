@@ -16,10 +16,10 @@ We took each vendor's lowest verified paid price and converted yearly plans to a
 
 | Tool | Price | Free option |
 |---|---|---|
-| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; subscription from $19.99/year | Yes |
+| [Live Home 3D](/reviews/live-home-3d-review/) | Mac lifetime from $59.99; Pro lifetime $129.99 on Windows/mobile | Yes |
 | [Planner 5D](/reviews/planner-5d-review/) | Premium $19.99/month or $59.99/year | Yes |
 | [Homestyler](/reviews/homestyler-review/) | Pro+ from $6.8/month | Yes |
-| [SketchUp](/reviews/sketchup-review/) | From $10.75/month (Go), Pro $33.25/month, billed annually | No |
+| [SketchUp](/reviews/sketchup-review/) | Go $10.75/month, Pro $33.25/month (annual); monthly Go $19.99, Pro $99.99 | No |
 | [RoomSketcher](/reviews/roomsketcher-review/) | Pro $24/month, or $12/month billed $144/year | Yes |
 
 [Compare these tools →](/compare-tools/#live-home-3d,planner-5d,homestyler,sketchup)

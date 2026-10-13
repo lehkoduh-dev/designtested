@@ -2,12 +2,15 @@
 title: "Desenta Review 2026: White-Label Project Delivery for Interior Designers"
 description: "Desenta is a white-label platform for presenting and delivering interior design projects in one client link. Features and published prices, with our relationship to the product disclosed."
 section: reviews
-updated: 2026-10-12
+updated: 2026-10-13
 draft: false
 vendor: Desenta
 officialUrl: https://desenta.com
 image: /img/tools/desenta-review.jpg
 imageCredit: Desenta (official website)
+bestFor: "Practising interior designers and studios who want to present and deliver a project to clients through one branded, always-current link."
+notFor: "Designers who need a tool to draw floor plans or create renders, or full business management with proposals and invoicing; Desenta covers project delivery only."
+verdict: "Desenta is our own product, so treat this as a description rather than an independent assessment. We have not compared it with the other tools here; based on the published pricing page it offers a free plan and plans that differ by active project count."
 ---
 
 > **Disclosure: Desenta is our own product.** People connected with this site also work on Desenta, so this page is not an independent review. We list it because it fits this audience, and we label it so you can weigh it accordingly.
@@ -30,7 +33,7 @@ Practising interior designers and studios who deliver projects to clients and wa
 
 ## Pricing
 
-Published on desenta.com/pricing on 12 October 2026 (EUR):
+Published on desenta.com/pricing, read 13 October 2026 (EUR):
 
 | Plan | Price | Active projects |
 |---|---|---|
@@ -50,6 +53,15 @@ The site states that every plan has the full feature set. During Early Access, a
 
 - It does not create plans or renders itself.
 - Young product: Early Access at the time of writing.
+
+## FAQ
+These answers come from the pricing page of desenta.com (read 13 October 2026), written by the vendor, which is us.
+
+**What counts as an active project?** Projects you are currently working on. You can archive completed projects to free up slots, and archived projects remain accessible to you and your clients.
+
+**Can I switch plans later?** Yes. You can upgrade, downgrade or cancel, and changes take effect on your next billing cycle.
+
+**What is included in Early Access?** Unlimited projects, unlimited storage and all features until public launch, with founding-member pricing promised to Early Access members.
 
 ## Alternatives
 

@@ -8,6 +8,9 @@ vendor: Chief Architect
 officialUrl: https://www.chiefarchitect.com
 image: /img/tools/chief-architect-review.jpg
 imageCredit: "Chief Architect (official website)"
+bestFor: "Architects, builders, remodelers and kitchen and bath or interior designers who need 3D models, schedules and construction documents from one program, per the vendor's listed audience."
+notFor: "Decorating-focused designers or anyone on a small budget, since the vendor prices Premier at $1,995 per year or $229 per month and positions it around construction documentation."
+verdict: "Chief Architect Premier is a broad drafting, 3D and documentation program with a published subscription price at the high end of this category. It looks aimed at professionals who will use its construction-document tools."
 ---
 
 Based on the vendor's published information; hands-on notes will be added.
@@ -30,7 +33,7 @@ The vendor lists architects and builders, remodelers, interior designers, kitche
 
 ## Pricing
 
-From the Premier product page, read 12 October 2026 (USD; tax treatment not stated): $1,995 per year billed annually (shown as $166.25/month), or $229/month billed monthly. A legacy-licence upgrade is offered at $995 for the first year. Includes software upgrades, premium catalog downloads, priority support and Chief As-Built app plan import. A trial download is listed.
+From the Premier product page, read 12 October 2026 (USD; tax treatment not stated): $1,995 per year billed annually (shown as $166.25/month), or $229/month billed monthly. A legacy-licence upgrade is offered at $995 for the first year. Includes software upgrades, premium catalog downloads, priority support and Chief As-Built app plan import. A trial download is listed. Prices are in USD, per the vendor's subscription FAQ; the annual subscription is described as saving 27% over monthly (chiefarchitect.com/software-subscription, read 13 October 2026).
 
 ## Pros
 
@@ -47,3 +50,14 @@ From the Premier product page, read 12 October 2026 (USD; tax treatment not stat
 ## Alternatives
 
 See [SketchUp](/reviews/sketchup-review/), [Live Home 3D](/reviews/live-home-3d-review/) and [Houzz Pro](/reviews/houzz-pro-review/).
+
+## FAQ
+
+**Is there a free trial?**
+Yes. The vendor's FAQ (read 13 October 2026) says the trial has the same tools and features as the paid version except saving, printing, exporting and virtual tours, and that it does not expire.
+
+**Does the money-back guarantee apply to subscriptions?**
+Annual subscriptions qualify for the two-week satisfaction guarantee; monthly subscriptions do not.
+
+**Can I install it on more than one computer?**
+It is a single-user licence. The software can be installed on several computers for personal use, but only one can be active at a time. Chief Architect is compatible with Mac and PC.

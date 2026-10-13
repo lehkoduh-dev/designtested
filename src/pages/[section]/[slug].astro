@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Ratings from '../../components/Ratings.astro';
 import { T } from '../../i18n';
 
 export async function getStaticPaths() {
@@ -36,5 +37,6 @@ const t = T.en;
       </div>
     )}
     <Content />
+    {entry.data.section === 'reviews' && <Ratings slug={entry.id.replace(/^ru\//,'').replace(/-review$/,'')} lang="en" />}
   </article>
 </Base>

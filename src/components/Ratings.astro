@@ -1,0 +1,53 @@
+---
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from '../data/config';
+const { slug, lang = 'en' } = Astro.props;
+const ru = lang === 'ru';
+const L = ru
+  ? { h: 'Оценки пользователей', soon: 'Оценки и отзывы появятся скоро.', none: 'Пока нет оценок', google: 'Войти через Google', email: 'Войти по e-mail', send: 'Отправить ссылку для входа', sent: 'Ссылка отправлена на почту.', rate: 'Ваша оценка', text: 'Короткий отзыв (по желанию)', submit: 'Отправить на модерацию', thanks: 'Спасибо! Отзыв появится после проверки.', out: 'Выйти', cnt: 'оценок', login: 'Войдите, чтобы оставить оценку' }
+  : { h: 'User ratings', soon: 'User ratings and reviews are coming soon.', none: 'No ratings yet', google: 'Sign in with Google', email: 'Sign in with e-mail', send: 'Send sign-in link', sent: 'Link sent to your inbox.', rate: 'Your rating', text: 'Short review (optional)', submit: 'Submit for moderation', thanks: 'Thanks! Your review appears after moderation.', out: 'Sign out', cnt: 'ratings', login: 'Sign in to leave a rating' };
+const on = !!(SUPABASE_URL && SUPABASE_ANON_KEY);
+---
+<section class="ratings" id="ratings" data-slug={slug} data-url={SUPABASE_URL} data-key={SUPABASE_ANON_KEY} data-l={JSON.stringify(L)}>
+  <h2>{L.h}</h2>
+  {on ? <div id="r-root"></div> : <p>{L.soon}</p>}
+</section>
+{on && <script>
+  const el = document.getElementById('ratings');
+  const slug = el.dataset.slug, url = el.dataset.url, key = el.dataset.key, L = JSON.parse(el.dataset.l);
+  const root = document.getElementById('r-root');
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const { createClient } = await import('https://esm.sh/@supabase/supabase-js@2.45.4');
+  const sb = createClient(url, key);
+  async function render() {
+    const { data: { session } } = await sb.auth.getSession();
+    const { data: rows } = await sb.from('reviews').select('rating,body,created_at').eq('tool_slug', slug).eq('status', 'approved').order('created_at', { ascending: false });
+    const n = rows?.length || 0;
+    const avg = n ? (rows.reduce((a, r) => a + r.rating, 0) / n).toFixed(1) : null;
+    let h = `<p class="avg">${avg ? `<b>${avg}</b> / 5 · ${n} ${L.cnt}` : L.none}</p>`;
+    h += (rows || []).filter((r) => r.body).slice(0, 10).map((r) => `<div class="rv"><b>${'★'.repeat(r.rating)}</b><p>${esc(r.body)}</p></div>`).join('');
+    if (!session) {
+      h += `<p>${L.login}</p><p><button id="g">${L.google}</button></p><form id="em"><input type="email" required placeholder="you@example.com"><button>${L.send}</button></form><p id="msg"></p>`;
+    } else {
+      h += `<form id="rf"><label>${L.rate} <select name="r">${[5,4,3,2,1].map((i) => `<option>${i}</option>`).join('')}</select></label><br><textarea name="t" maxlength="800" placeholder="${L.text}"></textarea><br><button>${L.submit}</button> <button type="button" id="so">${L.out}</button></form><p id="msg"></p>`;
+    }
+    root.innerHTML = h;
+    root.querySelector('#g')?.addEventListener('click', () => sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href.split('#')[0] } }));
+    root.querySelector('#em')?.addEventListener('submit', async (e) => { e.preventDefault(); await sb.auth.signInWithOtp({ email: e.target.querySelector('input').value, options: { emailRedirectTo: location.href.split('#')[0] } }); root.querySelector('#msg').textContent = L.sent; });
+    root.querySelector('#so')?.addEventListener('click', async () => { await sb.auth.signOut(); render(); });
+    root.querySelector('#rf')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const f = e.target;
+      const { error } = await sb.from('reviews').upsert({ tool_slug: slug, user_id: session.user.id, rating: +f.r.value, body: f.t.value.trim() || null, status: 'pending' }, { onConflict: 'tool_slug,user_id' });
+      root.querySelector('#msg').textContent = error ? error.message : L.thanks;
+    });
+  }
+  sb.auth.onAuthStateChange(() => render());
+  render();
+</script>}
+<style>
+  .ratings { margin: 2rem 0; padding: 1.2rem; border: 1px solid var(--line, #dfe3ee); border-radius: 14px; background: var(--card, #fff); }
+  .ratings button { cursor: pointer; padding: .5rem .9rem; border-radius: 10px; border: 1px solid var(--line, #dfe3ee); background: var(--card, #fff); font: inherit; }
+  .ratings input, .ratings textarea, .ratings select { font: inherit; padding: .5rem; border-radius: 8px; border: 1px solid var(--line, #dfe3ee); max-width: 100%; }
+  .ratings textarea { width: 100%; min-height: 80px; margin: .5rem 0; }
+  .rv { border-top: 1px solid var(--line, #dfe3ee); padding-top: .5rem; }
+</style>

@@ -11,7 +11,7 @@ export const T = {
       { path: '/business-tools/', label: 'Business tools' },
       { path: '/guides/', label: 'Guides' },
     ],
-    footerDisclosure: 'Some links on this site are affiliate links: if you buy through them we may earn a commission at no extra cost to you. It never changes our verdict.',
+    footerDisclosure: 'Some links on this site may be affiliate links: if you buy through them we may earn a commission at no extra cost to you. It never changes our verdict.',
     disclosureLink: 'Read our disclosure',
     footerLinks: [
       { path: '/about/', label: 'About' },
@@ -39,7 +39,7 @@ export const T = {
       { path: '/business-tools/', label: 'Бизнес-инструменты' },
       { path: '/guides/', label: 'Гайды' },
     ],
-    footerDisclosure: 'Часть ссылок на сайте партнёрские: если вы купите по ним, мы можем получить комиссию без доплаты с вашей стороны. Это не влияет на наши выводы.',
+    footerDisclosure: 'Часть ссылок на сайте может быть партнёрской: если вы купите по ним, мы можем получить комиссию без доплаты с вашей стороны. Это не влияет на наши выводы.',
     disclosureLink: 'Подробнее о партнёрских ссылках',
     footerLinks: [
       { path: '/about/', label: 'О проекте' },

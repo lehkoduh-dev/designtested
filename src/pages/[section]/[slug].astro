@@ -19,7 +19,7 @@ const t = T.en;
   <article>
     <h1>{entry.data.title}</h1>
     <p class="meta">{t.lastUpdated} {date} · {t.byTeam}</p>
-    <p class="notice">{t.articleDisclosure} <a href="/affiliate-disclosure/">{t.details}</a>.</p>
+    {entry.data.affiliate && <p class="notice">{t.articleDisclosure} <a href="/affiliate-disclosure/">{t.details}</a>.</p>}
     {entry.data.image && (
       <figure class="hero">
         <img src={entry.data.image} alt={entry.data.vendor ?? entry.data.title} loading="lazy" width="1024" />

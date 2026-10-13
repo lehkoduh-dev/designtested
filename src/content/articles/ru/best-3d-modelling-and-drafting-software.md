@@ -4,6 +4,8 @@ description: "SketchUp, Chief Architect, Blender и Morpholio Trace: сравн�
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/sketchup-review.jpg
+imageCredit: "Trimble SketchUp (official website)"
 lang: ru
 ---
 

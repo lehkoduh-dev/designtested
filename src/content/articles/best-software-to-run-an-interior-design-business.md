@@ -4,6 +4,8 @@ description: "Houzz Pro, DesignFiles and Desenta compared: client delivery, prop
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/designfiles-review.jpg
+imageCredit: "DesignFiles (official website)"
 ---
 
 Drawing and rendering tools make the design. These tools run the business around it: presenting to clients, proposals, invoices and project tracking.

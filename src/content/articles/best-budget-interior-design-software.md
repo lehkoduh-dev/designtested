@@ -4,6 +4,8 @@ description: "Interior design tools with a verified entry price of $20 per month
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/live-home-3d-review.jpg
+imageCredit: "BeLight Software (official website)"
 ---
 
 You do not need an expensive subscription to start. These tools have a published entry price at or below about $20 a month.

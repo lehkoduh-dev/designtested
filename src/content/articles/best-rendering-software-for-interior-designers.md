@@ -4,6 +4,8 @@ description: "Foyr Neo, Enscape, Lumion, D5 Render and Blender compared by price
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/d5-render-review.jpg
+imageCredit: "Screenshot of the official website, 12 October 2026"
 ---
 
 Rendering turns a model into the image a client says yes to. The right tool depends on where your model lives: in CAD/BIM software, or in an all-in-one design app.

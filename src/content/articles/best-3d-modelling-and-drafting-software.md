@@ -4,6 +4,8 @@ description: "SketchUp, Chief Architect, Blender and Morpholio Trace compared by
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/sketchup-review.jpg
+imageCredit: "Trimble SketchUp (official website)"
 ---
 
 When a floor plan app is not enough, you move to full modelling or drafting software. These are the main options we reviewed.

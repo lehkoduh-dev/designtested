@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { T, type Lang } from '../i18n';
-interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | 'guides' | 'gear'; lang?: Lang; }
+interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | 'guides' | 'gear' | 'news'; lang?: Lang; }
 const { section, lang = 'en' } = Astro.props;
 const prefix = lang === 'ru' ? '/ru' : '';
 const items = (await getCollection('articles', (a) => a.data.section === section && a.data.lang === lang && !a.data.draft))

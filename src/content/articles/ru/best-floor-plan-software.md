@@ -4,6 +4,8 @@ description: "Шесть программ для планировок и 3D-ди
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/roomsketcher-review.jpg
+imageCredit: "RoomSketcher (official website)"
 lang: ru
 ---
 

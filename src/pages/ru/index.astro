@@ -1,36 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
-import { T } from '../../i18n';
-const t = T.ru;
-const latest = (await getCollection('articles', (a) => a.data.lang === 'ru' && !a.data.draft))
-  .sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf()).slice(0, 6);
-const sections = [
-  { href: '/ru/best/', t: 'Лучшее', d: 'Подборки лучших инструментов по задачам.' },
-  { href: '/ru/compare/', t: 'Сравнения', d: 'Лицом к лицу, с чётким выбором.' },
-  { href: '/ru/reviews/', t: 'Обзоры', d: 'Практика, включая минусы.' },
-  { href: '/ru/business-tools/', t: 'Бизнес-инструменты', d: 'CRM, предложения, счета, проекты.' },
-];
+import Home from '../../components/Home.astro';
+import { SITE } from '../../site';
 ---
-<Base lang="ru" title="DesignTested" description="Независимые обзоры и сравнения софта для дизайнеров интерьера и дизайн-студий. Инструменты для дизайнеров: проверяем до покупки.">
-  <h1>{t.tagline}</h1>
-  <p class="lede">
-    Независимые обзоры и сравнения программ, которыми реально пользуются дизайн-студии:
-    начинаем с дизайна интерьера, дальше дойдём до техники на вашем столе.
-  </p>
-  <div class="grid">
-    {sections.map((s) => (
-      <a class="card" href={s.href}><h3>{s.t}</h3><p>{s.d}</p></a>
-    ))}
-  </div>
-  <h2>{t.latest}</h2>
-  {latest.length === 0 ? (
-    <p class="notice">{t.soon}</p>
-  ) : (
-    <ul class="list">
-      {latest.map((a) => (
-        <li><a href={`/ru/${a.data.section}/${a.id.replace(/^ru\//, '')}/`}>{a.data.title}</a><p>{a.data.description}</p></li>
-      ))}
-    </ul>
-  )}
+<Base title={SITE.name} description="Независимые обзоры и сравнения программ и оборудования для дизайнеров интерьера. Инструменты для дизайнеров: проверяем до покупки." lang="ru">
+  <Home lang="ru" />
 </Base>

@@ -4,6 +4,8 @@ description: "Six floor plan and home design tools compared by published price, 
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/roomsketcher-review.jpg
+imageCredit: "RoomSketcher (official website)"
 ---
 
 Floor plan tools turn a room into a drawing you can show a client. This list covers six that we reviewed, from free to professional.

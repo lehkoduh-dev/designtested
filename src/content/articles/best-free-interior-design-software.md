@@ -4,6 +4,8 @@ description: "Free and free-plan tools for floor plans, 3D design and rendering,
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/sweet-home-3d-review.jpg
+imageCredit: "eTeks (official website)"
 ---
 
 You can plan and visualise a room without paying. These are the tools we reviewed that are free or have a free plan, along with the catch in each.

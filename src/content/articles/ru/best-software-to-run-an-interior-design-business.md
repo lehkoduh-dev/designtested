@@ -4,6 +4,8 @@ description: "Houzz Pro, DesignFiles и Desenta: сдача проекта кл�
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/designfiles-review.jpg
+imageCredit: "DesignFiles (official website)"
 lang: ru
 ---
 

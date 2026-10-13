@@ -4,6 +4,8 @@ description: "Foyr Neo, Enscape, Lumion, D5 Render и Blender: сравнени�
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/d5-render-review.jpg
+imageCredit: "Screenshot of the official website, 12 October 2026"
 lang: ru
 ---
 

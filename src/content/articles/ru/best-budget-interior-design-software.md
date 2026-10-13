@@ -4,6 +4,8 @@ description: "Программы для дизайна интерьера с п�
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/live-home-3d-review.jpg
+imageCredit: "BeLight Software (official website)"
 lang: ru
 ---
 

@@ -4,6 +4,8 @@ description: "Бесплатные программы и тарифы для п�
 section: best
 updated: 2026-10-13
 draft: false
+image: /img/tools/sweet-home-3d-review.jpg
+imageCredit: "eTeks (official website)"
 lang: ru
 ---
 

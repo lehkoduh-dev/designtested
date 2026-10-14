@@ -3,6 +3,7 @@ title: "Best Floor Plan Software for Interior Designers in 2026"
 description: "Seven floor plan and home design tools compared by published price, free options and what they produce, with our pick first."
 section: best
 updated: 2026-10-13
+published: 2026-09-14
 draft: false
 image: /img/tools/roomsketcher-review.jpg
 imageCredit: "RoomSketcher (official website)"

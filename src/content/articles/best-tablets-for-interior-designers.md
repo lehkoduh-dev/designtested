@@ -3,6 +3,7 @@ title: "Best Tablets and Drawing Devices for Interior Designers in 2026"
 description: "iPad Pro, iPad Air, Samsung Galaxy Tab S11, Wacom Movink and Huion Kamvas Pro 16 compared on the specs each manufacturer publishes."
 section: gear
 updated: 2026-10-13
+published: 2026-09-30
 draft: false
 image: /img/gear/ipad-pro.jpg
 imageCredit: "Apple (official website)"

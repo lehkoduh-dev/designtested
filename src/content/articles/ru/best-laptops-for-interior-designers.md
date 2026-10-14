@@ -3,6 +3,7 @@ title: "Лучшие ноутбуки для дизайнеров интерье
 description: "Пять ноутбуков Apple, ASUS, Dell и Lenovo: сравнение по опубликованным процессору, графике, дисплею, весу и цене."
 section: gear
 updated: 2026-10-14
+published: 2026-10-08
 draft: false
 image: /img/gear/asus-proart-p16-h7606.jpg
 imageCredit: "ASUS (official website)"

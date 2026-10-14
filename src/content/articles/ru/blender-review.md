@@ -4,6 +4,7 @@ description: "Обзор Blender, бесплатного 3D-редактора �
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-06
 draft: false
 vendor: "Blender Foundation"
 officialUrl: "https://www.blender.org/"

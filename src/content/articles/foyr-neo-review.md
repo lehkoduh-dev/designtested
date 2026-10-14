@@ -3,6 +3,7 @@ title: "Foyr Neo Review 2026: Pricing, Features and Alternatives"
 description: "A review of Foyr Neo, a rendering-focused design tool for interior designers, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-27
 draft: false
 image: /img/tools/foyr-neo-review.jpg
 imageCredit: Foyr (official website, product demo)

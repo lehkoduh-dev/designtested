@@ -14,13 +14,14 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const date = entry.data.updated.toISOString().slice(0, 10);
+const pubDate = (entry.data.published ?? entry.data.updated).toISOString().slice(0, 10);
 const t = T.ru;
 ---
 <Base lang="ru" title={entry.data.title} description={entry.data.description} alt={null}>
   <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: entry.data.title, description: entry.data.description, dateModified: date, inLanguage: 'ru', author: { '@type': 'Organization', name: 'DesignTested' }, publisher: { '@type': 'Organization', name: 'DesignTested' }, ...(entry.data.image ? { image: 'https://designtested.com' + entry.data.image } : {}) })} />
   <article>
     <h1>{entry.data.title}</h1>
-    <p class="meta">{t.lastUpdated} {date} · {t.byTeam}</p>
+    <p class="meta">Опубликовано {pubDate} · Данные проверены {date} · {t.byTeam}</p>
     {entry.data.affiliate && <p class="notice">{t.articleDisclosure} <a href="/ru/affiliate-disclosure/">{t.details}</a>.</p>}
     {entry.data.image && (
       <figure class="hero">

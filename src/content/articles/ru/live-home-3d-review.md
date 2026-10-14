@@ -3,6 +3,7 @@ title: "Обзор Live Home 3D 2026: кроссплатформенное пр�
 description: "Фактический взгляд на Live Home 3D — приложение BeLight Software для планировок и 3D-дизайна на Mac, Windows, iOS и Android — с опубликованными ценами."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-16
 draft: false
 vendor: BeLight Software
 officialUrl: https://www.livehome3d.com

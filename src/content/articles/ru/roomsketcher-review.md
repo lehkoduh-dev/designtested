@@ -3,6 +3,7 @@ title: "Обзор RoomSketcher 2026: цены, функции и альтерн
 description: "Обзор RoomSketcher, инструмента для планировок и 3D-визуализации с бесплатным тарифом, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-14
 draft: false
 vendor: "RoomSketcher"
 officialUrl: "https://www.roomsketcher.com"

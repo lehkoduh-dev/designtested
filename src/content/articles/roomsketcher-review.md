@@ -3,6 +3,7 @@ title: "RoomSketcher Review 2026: Pricing, Features and Alternatives"
 description: "A review of RoomSketcher, a floor plan and 3D visualization tool with a free plan, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-14
 draft: false
 vendor: "RoomSketcher"
 officialUrl: "https://www.roomsketcher.com"

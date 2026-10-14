@@ -3,6 +3,7 @@ title: "Лучшие лазерные дальномеры для дизайне
 description: "Пять лазерных дальномеров Bosch, Hilti, DeWalt и Milwaukee: сравнение по опубликованной дальности, точности и функциям."
 section: gear
 updated: 2026-10-13
+published: 2026-10-02
 draft: false
 image: /img/gear/bosch-glm-50-27-cg.jpg
 imageCredit: "Bosch (official website)"

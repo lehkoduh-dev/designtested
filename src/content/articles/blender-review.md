@@ -3,6 +3,7 @@ title: "Blender Review 2026: Free Open-Source 3D Suite, Not Built for Interiors 
 description: "A look at Blender, the free and open-source 3D creation software, and what it offers interior designers who want to model and render their own scenes."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-06
 draft: false
 vendor: "Blender Foundation"
 officialUrl: "https://www.blender.org/"

@@ -4,6 +4,7 @@ description: "Обзор DesignFiles, объединяющего мудборд�
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-24
 draft: false
 vendor: "DesignFiles"
 officialUrl: "https://designfiles.co/"

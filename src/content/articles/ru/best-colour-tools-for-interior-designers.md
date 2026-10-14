@@ -3,6 +3,7 @@ title: "Лучшие инструменты для работы с цветом 
 description: "Пять инструментов Nix, Calibrite и Datacolor: сравнение по опубликованным характеристикам и ценам. Два для подбора цвета краски и поверхностей, три для калибровки мониторов."
 section: gear
 updated: 2026-10-14
+published: 2026-09-24
 draft: false
 image: /img/gear/nix-mini-3.jpg
 imageCredit: "Nix Sensor (official website)"

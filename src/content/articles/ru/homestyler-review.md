@@ -3,6 +3,7 @@ title: "Обзор Homestyler 2026: облачный 3D-планировщик �
 description: "Фактический взгляд на облачный 3D-планировщик Homestyler, квоты рендеринга и опубликованные цены тарифов — по собственным страницам вендора."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-10
 draft: false
 vendor: Homestyler
 officialUrl: https://www.homestyler.com

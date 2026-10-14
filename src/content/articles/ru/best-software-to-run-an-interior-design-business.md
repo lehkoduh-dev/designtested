@@ -3,6 +3,7 @@ title: "Лучшие программы для управления дизайн
 description: "Houzz Pro, DesignFiles и Desenta: сдача проекта клиенту, предложения, счета и управление проектами."
 section: best
 updated: 2026-10-13
+published: 2026-09-01
 draft: false
 image: /img/tools/designfiles-review.jpg
 imageCredit: "DesignFiles (official website)"

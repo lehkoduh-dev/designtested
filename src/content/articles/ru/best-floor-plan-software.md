@@ -3,6 +3,7 @@ title: "Лучшие программы для планировки интерь
 description: "Семь программ для планировок и 3D-дизайна дома: сравнение по опубликованным ценам, бесплатным вариантам и результату. Наш выбор — первым."
 section: best
 updated: 2026-10-13
+published: 2026-09-14
 draft: false
 image: /img/tools/roomsketcher-review.jpg
 imageCredit: "RoomSketcher (official website)"

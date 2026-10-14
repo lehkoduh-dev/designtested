@@ -3,6 +3,7 @@ title: "Как обмерить комнату для планировки: ру
 description: "Пошаговый метод обмера комнаты рулеткой или лазерным дальномером, чтобы программа для планировок получила точные размеры."
 section: guides
 updated: 2026-10-13
+published: 2026-09-18
 draft: false
 image: /img/gear/bosch-glm-50-27-cg.jpg
 imageCredit: "Bosch (official website)"

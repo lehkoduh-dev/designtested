@@ -3,6 +3,7 @@ title: "Houzz Pro Review 2026: Business Software for Designers and Contractors"
 description: "A factual look at Houzz Pro, the all-in-one business management software for contractors and design professionals, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-17
 draft: false
 vendor: Houzz
 officialUrl: https://pro.houzz.com

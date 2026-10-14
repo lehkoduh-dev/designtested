@@ -3,6 +3,7 @@ title: "Best Interior Design Software in 2026"
 description: "A buyer's guide to the main interior design software options in 2026: what each tool is for, what it costs, and who should pick it."
 section: best
 updated: 2026-10-10
+published: 2026-08-25
 draft: false
 ---
 

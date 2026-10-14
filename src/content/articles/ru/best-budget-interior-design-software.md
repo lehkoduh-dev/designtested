@@ -3,6 +3,7 @@ title: "Лучшие недорогие программы для дизайна
 description: "Программы для дизайна интерьера с проверенной входной ценой не выше $20 в месяц: от пожизненных лицензий до годовых планов."
 section: best
 updated: 2026-10-13
+published: 2026-09-03
 draft: false
 image: /img/tools/live-home-3d-review.jpg
 imageCredit: "BeLight Software (official website)"

@@ -3,6 +3,7 @@ title: "Обзор Houzz Pro 2026: бизнес-программа для диз
 description: "Фактический взгляд на Houzz Pro — универсальную программу управления бизнесом для подрядчиков и специалистов по дизайну — на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-17
 draft: false
 vendor: Houzz
 officialUrl: https://pro.houzz.com

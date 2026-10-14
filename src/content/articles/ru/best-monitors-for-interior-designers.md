@@ -3,6 +3,7 @@ title: "Лучшие мониторы для дизайнеров интерье
 description: "Пять цветоточных мониторов BenQ, ASUS, Eizo и Apple: сравнение по размеру, разрешению, охвату цвета и подключению по опубликованным спецификациям производителей."
 section: gear
 updated: 2026-10-13
+published: 2026-10-06
 draft: false
 image: /img/gear/benq-sw272u.jpg
 imageCredit: "BenQ (official website)"

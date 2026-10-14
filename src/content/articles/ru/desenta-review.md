@@ -3,6 +3,7 @@ title: "Обзор Desenta 2026: white-label платформа для сдач�
 description: "Desenta — white-label платформа для презентации и сдачи дизайн-проектов интерьера клиенту по одной ссылке. Функции и опубликованные цены; мы раскрываем нашу связь с продуктом."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-27
 draft: false
 vendor: Desenta
 officialUrl: https://desenta.com

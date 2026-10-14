@@ -3,6 +3,7 @@ title: "Best Laptops for Interior Designers and 3D Rendering in 2026"
 description: "Five laptops from Apple, ASUS, Dell and Lenovo compared by their published chip, graphics, display, weight and price."
 section: gear
 updated: 2026-10-14
+published: 2026-10-08
 draft: false
 image: /img/gear/asus-proart-p16-h7606.jpg
 imageCredit: "ASUS (official website)"

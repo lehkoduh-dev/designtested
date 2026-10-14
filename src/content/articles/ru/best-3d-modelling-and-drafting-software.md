@@ -3,6 +3,7 @@ title: "Лучшие программы для 3D-моделирования и 
 description: "SketchUp, Chief Architect, Blender и Morpholio Trace: сравнение по цене и назначению."
 section: best
 updated: 2026-10-13
+published: 2026-09-11
 draft: false
 image: /img/tools/sketchup-review.jpg
 imageCredit: "Trimble SketchUp (official website)"

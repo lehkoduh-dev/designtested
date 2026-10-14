@@ -3,6 +3,7 @@ title: "Обзор Lumion 2026: рендеринг в реальном врем�
 description: "Обзор Lumion Pro, приложения для рендеринга в реальном времени с ИИ-инструментами и облачным согласованием, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-15
 draft: false
 vendor: "Lumion"
 officialUrl: "https://lumion.com"

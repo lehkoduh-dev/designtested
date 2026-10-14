@@ -4,6 +4,7 @@ description: "Фактический обзор Coohom, браузерного �
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-26
 draft: false
 vendor: Coohom
 officialUrl: https://www.coohom.com

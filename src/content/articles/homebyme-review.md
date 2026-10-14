@@ -3,6 +3,7 @@ title: "HomeByMe Review 2026: Pricing, Features and Alternatives"
 description: "A review of HomeByMe, Dassault Systèmes' online 3D floor plan and home design service with a free tier and paid plans, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-13
 draft: false
 vendor: "Dassault Systèmes"
 officialUrl: "https://home.by.me/en/"

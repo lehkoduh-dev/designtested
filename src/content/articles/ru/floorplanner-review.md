@@ -3,6 +3,7 @@ title: "Обзор Floorplanner 2026: онлайн-планировки 2D и 3D
 description: "Фактический взгляд на браузерный редактор планировок Floorplanner и его систему цен на основе кредитов — по собственным страницам вендора."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-31
 draft: false
 vendor: Floorplanner
 officialUrl: https://floorplanner.com

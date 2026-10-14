@@ -3,6 +3,7 @@ title: "Best Free Interior Design Software in 2026"
 description: "Free and free-plan tools for floor plans, 3D design and rendering, with the limits that apply to each."
 section: best
 updated: 2026-10-13
+published: 2026-09-04
 draft: false
 image: /img/tools/sweet-home-3d-review.jpg
 imageCredit: "eTeks (official website)"

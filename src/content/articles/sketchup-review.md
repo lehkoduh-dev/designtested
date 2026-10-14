@@ -3,6 +3,7 @@ title: "SketchUp Review 2026: Pricing, Features and Alternatives"
 description: "A review of SketchUp, a general-purpose 3D modelling tool with several paid tiers, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-20
 draft: false
 vendor: "Trimble SketchUp"
 officialUrl: "https://www.sketchup.com"

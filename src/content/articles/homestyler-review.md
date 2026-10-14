@@ -3,6 +3,7 @@ title: "Homestyler Review 2026: Cloud 3D Floor Planner with Credit-Based Renderi
 description: "A factual look at Homestyler's cloud 3D floor planner, rendering quotas and published plan prices, based on the vendor's own pages."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-10
 draft: false
 vendor: Homestyler
 officialUrl: https://www.homestyler.com

@@ -3,6 +3,7 @@ title: "Best Monitors for Interior Designers and 3D Rendering in 2026"
 description: "Five colour-accurate monitors from BenQ, ASUS, Eizo and Apple compared on size, resolution, colour coverage and connectivity, using the manufacturers' own published specs."
 section: gear
 updated: 2026-10-13
+published: 2026-10-06
 draft: false
 image: /img/gear/benq-sw272u.jpg
 imageCredit: "BenQ (official website)"

@@ -3,6 +3,7 @@ title: "Coohom Review 2026: Browser-Based 3D Home Design and Rendering"
 description: "A factual look at Coohom, the browser-based floor planner, 3D room designer and renderer, based on the vendor's published information."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-26
 draft: false
 vendor: Coohom
 officialUrl: https://www.coohom.com

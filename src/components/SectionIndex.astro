@@ -5,7 +5,7 @@ interface Props { section: 'best' | 'compare' | 'reviews' | 'business-tools' | '
 const { section, lang = 'en' } = Astro.props;
 const prefix = lang === 'ru' ? '/ru' : '';
 const items = (await getCollection('articles', (a) => a.data.section === section && a.data.lang === lang && !a.data.draft))
-  .sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf());
+  .sort((a, b) => (b.data.published ?? b.data.updated).valueOf() - (a.data.published ?? a.data.updated).valueOf());
 ---
 {items.length === 0 ? (
   <p class="notice">{T[lang].soon}</p>
@@ -17,6 +17,7 @@ const items = (await getCollection('articles', (a) => a.data.section === section
         <div class="body">
           <h3>{a.data.title}</h3>
           <p>{a.data.description}</p>
+          <small>{(a.data.published ?? a.data.updated).toISOString().slice(0, 10)}</small>
         </div>
       </a>
     ))}

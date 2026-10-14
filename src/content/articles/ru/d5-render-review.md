@@ -4,6 +4,7 @@ description: "Обзор D5 Render, приложения для рендерин
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-18
 draft: false
 image: /img/tools/d5-render-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

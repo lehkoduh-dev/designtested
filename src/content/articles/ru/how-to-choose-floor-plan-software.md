@@ -3,6 +3,7 @@ title: "Как выбрать программу для планировки и�
 description: "Практическое руководство по выбору программы для планировок с учётом рабочего процесса, нужных материалов и модели оплаты — до оформления подписки."
 section: guides
 updated: 2026-10-13
+published: 2026-09-25
 draft: false
 image: /img/tools/roomsketcher-review.jpg
 imageCredit: "RoomSketcher (official website)"

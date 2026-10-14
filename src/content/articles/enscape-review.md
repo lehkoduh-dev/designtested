@@ -3,6 +3,7 @@ title: "Enscape Review 2026: Real-Time Rendering Inside Your CAD Tool"
 description: "A review of Enscape, a real-time rendering plugin for Revit, SketchUp, Rhino, Archicad and Vectorworks, based on the vendor's published information."
 section: reviews
 updated: 2026-10-12
+published: 2026-07-22
 draft: false
 vendor: "Chaos (Enscape)"
 officialUrl: "https://www.chaos.com/enscape"

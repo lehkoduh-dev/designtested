@@ -3,6 +3,7 @@ title: "Обзор Morpholio Trace 2026: приложение для эскиз�
 description: "Обзор Morpholio Trace, приложения для эскизов и рисования на iPhone и iPad с подписками Essentials, Plus и Pro, на основе его страницы в App Store."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-14
 draft: false
 vendor: "Morpholio (listed under Vectorworks, Inc.)"
 officialUrl: "https://apps.apple.com/us/app/morpholio-trace-sketch-cad/id547274918"

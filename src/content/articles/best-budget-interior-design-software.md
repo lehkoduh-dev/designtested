@@ -3,6 +3,7 @@ title: "Best Budget Interior Design Software: Under $20 a Month (2026)"
 description: "Interior design tools with a verified entry price of $20 per month or less, from lifetime licences to yearly plans."
 section: best
 updated: 2026-10-13
+published: 2026-09-03
 draft: false
 image: /img/tools/live-home-3d-review.jpg
 imageCredit: "BeLight Software (official website)"

@@ -4,6 +4,7 @@ description: "Обзор Cedreo, инструмента для проектир�
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-21
 draft: false
 vendor: "Cedreo"
 officialUrl: "https://cedreo.com"

@@ -3,6 +3,7 @@ title: "Sweet Home 3D Review 2026: Pricing, Features and Alternatives"
 description: "A review of Sweet Home 3D, a free open-source interior design application, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-30
 draft: false
 vendor: "eTeks"
 officialUrl: "https://www.sweethome3d.com"

@@ -3,6 +3,7 @@ title: "Morpholio Trace Review 2026: Sketching and Markup App for Designers"
 description: "A review of Morpholio Trace, a sketching and drawing app for iPhone and iPad with Essentials, Plus and Pro subscriptions, based on its App Store listing."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-14
 draft: false
 vendor: "Morpholio (listed under Vectorworks, Inc.)"
 officialUrl: "https://apps.apple.com/us/app/morpholio-trace-sketch-cad/id547274918"

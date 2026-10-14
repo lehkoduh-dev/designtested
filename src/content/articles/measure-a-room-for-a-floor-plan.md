@@ -3,6 +3,7 @@ title: "How to Measure a Room for a Floor Plan: Tape vs Laser Measure"
 description: "A step-by-step method for surveying a room with a tape or laser measure so your floor plan software gets accurate dimensions."
 section: guides
 updated: 2026-10-13
+published: 2026-09-18
 draft: false
 image: /img/gear/bosch-glm-50-27-cg.jpg
 imageCredit: "Bosch (official website)"

@@ -11,11 +11,11 @@ const byLang = all.filter((a) => a.data.lang === lang);
 // RU has few translated articles: fall back to English ones so the page is never empty
 const pool = (byLang.length >= 5 ? byLang : all.filter((a) => a.data.lang === 'en'));
 const href = (a: any) => `${a.data.lang === 'ru' ? '/ru' : ''}/${a.data.section}/${a.id.replace(/^ru\//, '')}/`;
-const recent = [...pool].filter((a) => a.data.section !== 'reviews').sort((x, y) => y.data.updated.valueOf() - x.data.updated.valueOf());
+const recent = [...pool].filter((a) => a.data.section !== 'reviews').sort((x, y) => (y.data.published ?? y.data.updated).valueOf() - (x.data.published ?? x.data.updated).valueOf());
 const withImg = recent.filter((a) => a.data.image);
 const featured = withImg[0] ?? recent[0];
 const rest = recent.filter((a) => a !== featured).slice(0, 6);
-const news = all.filter((a) => a.data.section === 'news' && a.data.lang === 'en').sort((x, y) => y.data.updated.valueOf() - x.data.updated.valueOf()).slice(0, 4);
+const news = all.filter((a) => a.data.section === 'news' && a.data.lang === 'en').sort((x, y) => (y.data.published ?? y.data.updated).valueOf() - (x.data.published ?? x.data.updated).valueOf()).slice(0, 4);
 const L = ru
   ? { lede: 'Независимые обзоры и сравнения программ и оборудования для дизайнеров интерьера. Цены и функции берём с официальных сайтов.', browse: 'Каталог', compare: 'Сравнить программы', latest: 'Свежее', news: 'Новости', all: 'Все', catalog: 'В каталоге', free: 'Есть бесплатный вариант', sections: [
       { href: '/software/', t: 'Каталог и обзоры', d: 'Все программы: фильтры, цены, сравнение.' }, { href: '/best/', t: 'Лучшее', d: 'Подборки по задачам с нашим выбором.' }, { href: '/gear/', t: 'Оборудование', d: 'Лазерные рулетки, планшеты, мониторы.' }, { href: '/guides/', t: 'Гайды', d: 'Как выбрать и с чего начать.' }, { href: '/news/', t: 'Новости', d: 'Новинки и обновления.' }] }
@@ -36,13 +36,13 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
   <section class="feat">
     <a class="big" href={href(featured)}>
       {featured.data.image ? <img src={featured.data.image} alt="" /> : <span class="ph">DT</span>}
-      <div><span class="tag">{tag(featured.data.section)}</span><h2>{featured.data.title}</h2><p>{featured.data.description}</p></div>
+      <div><span class="tag">{tag(featured.data.section)}</span><h2>{featured.data.title}</h2><p>{featured.data.description}</p><small>{fmt(featured.data.published ?? featured.data.updated)}</small></div>
     </a>
     <div class="side">
       {rest.slice(0, 4).map((a) => (
         <a class="mini" href={href(a)}>
           {a.data.image ? <img src={a.data.image} alt="" loading="lazy" /> : <span class="ph">DT</span>}
-          <div><span class="tag">{tag(a.data.section)}</span><h3>{a.data.title}</h3></div>
+          <div><span class="tag">{tag(a.data.section)}</span><h3>{a.data.title}</h3><small>{fmt(a.data.published ?? a.data.updated)}</small></div>
         </a>
       ))}
     </div>
@@ -51,7 +51,7 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
 
 <h2 class="sec">{L.news} <a href={`${P}/news/`}>{L.all} →</a></h2>
 <ul class="news">
-  {news.map((a) => (<li><time>{fmt(a.data.updated)}</time> <a href={`/news/${a.id}/`}>{a.data.title}</a></li>))}
+  {news.map((a) => (<li><time>{fmt(a.data.published ?? a.data.updated)}</time> <a href={`/news/${a.id}/`}>{a.data.title}</a></li>))}
 </ul>
 
 <h2 class="sec">{L.catalog} <a href={`${P}/software/`}>{L.all} →</a></h2>

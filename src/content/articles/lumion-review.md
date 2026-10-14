@@ -3,6 +3,7 @@ title: "Lumion Review 2026: Real-Time 3D Rendering for Architects and Designers"
 description: "A review of Lumion Pro, a real-time rendering application with AI tools and cloud review, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-15
 draft: false
 vendor: "Lumion"
 officialUrl: "https://lumion.com"

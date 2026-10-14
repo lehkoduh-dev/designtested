@@ -3,6 +3,7 @@ title: "Planner 5D Review 2026: Pricing, Features and Alternatives"
 description: "A review of Planner 5D, a home and interior design planner with free, Premium and Professional plans, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-07
 draft: false
 image: /img/tools/planner-5d-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

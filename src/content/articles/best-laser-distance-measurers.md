@@ -3,6 +3,7 @@ title: "Best Laser Distance Measurers for Interior Designers in 2026"
 description: "Five laser distance measurers from Bosch, Hilti, DeWalt and Milwaukee compared by their published range, accuracy and features."
 section: gear
 updated: 2026-10-13
+published: 2026-10-02
 draft: false
 image: /img/gear/bosch-glm-50-27-cg.jpg
 imageCredit: "Bosch (official website)"

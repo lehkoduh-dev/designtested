@@ -3,6 +3,7 @@ title: "Обзор SketchUp 2026: цены, функции и альтернат
 description: "Обзор SketchUp, универсального инструмента 3D-моделирования с несколькими платными уровнями, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-20
 draft: false
 vendor: "Trimble SketchUp"
 officialUrl: "https://www.sketchup.com"

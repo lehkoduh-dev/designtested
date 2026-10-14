@@ -3,6 +3,7 @@ title: "AutoCAD Review 2026: Pricing, Features and Alternatives"
 description: "A review of Autodesk AutoCAD, the 2D and 3D drafting application sold by subscription, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-05
 draft: false
 vendor: "Autodesk"
 officialUrl: "https://www.autodesk.com/products/autocad/overview"

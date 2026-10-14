@@ -3,6 +3,7 @@ title: "Обзор HomeByMe 2026: цены, функции и альтернат
 description: "Обзор HomeByMe — онлайн-сервиса 3D-планировок и дизайна дома от Dassault Systèmes с бесплатным уровнем и платными тарифами, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-13
 draft: false
 vendor: "Dassault Systèmes"
 officialUrl: "https://home.by.me/en/"

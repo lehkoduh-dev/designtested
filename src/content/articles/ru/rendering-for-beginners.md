@@ -3,6 +3,7 @@ title: "Рендеринг для дизайнеров интерьера: чт�
 description: "Простое руководство по видам программ для рендеринга, тому, что они требуют от вас, и тому, как выбрать одну без переплаты."
 section: guides
 updated: 2026-10-13
+published: 2026-09-29
 draft: false
 image: /img/tools/lumion-review.jpg
 imageCredit: "Lumion (official website)"

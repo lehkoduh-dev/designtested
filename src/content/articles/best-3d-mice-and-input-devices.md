@@ -3,6 +3,7 @@ title: "Best 3D Mice and Input Devices for Interior Designers in 2026"
 description: "Five 3D mice and creative input devices from 3Dconnexion and Logitech compared by their published connection, controls and price."
 section: gear
 updated: 2026-10-14
+published: 2026-10-07
 draft: false
 image: /img/gear/3dconnexion-spacemouse-wireless.jpg
 imageCredit: "3Dconnexion (official website)"

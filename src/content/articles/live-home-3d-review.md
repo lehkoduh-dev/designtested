@@ -3,6 +3,7 @@ title: "Live Home 3D Review 2026: Multi-Platform Home and Interior Design App"
 description: "A factual look at Live Home 3D, BeLight Software's floor plan and 3D design app for Mac, Windows, iOS and Android, with its published prices."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-16
 draft: false
 vendor: BeLight Software
 officialUrl: https://www.livehome3d.com

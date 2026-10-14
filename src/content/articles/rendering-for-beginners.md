@@ -3,6 +3,7 @@ title: "Rendering for Interior Designers: What to Know Before You Buy Software"
 description: "A plain-English guide to the types of rendering software, what they need from you, and how to pick one without overbuying."
 section: guides
 updated: 2026-10-13
+published: 2026-09-29
 draft: false
 image: /img/tools/lumion-review.jpg
 imageCredit: "Lumion (official website)"

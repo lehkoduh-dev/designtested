@@ -3,6 +3,7 @@ title: "Лучшие 3D-мыши и устройства ввода для ди�
 description: "Пять 3D-мышей и творческих устройств ввода 3Dconnexion и Logitech: сравнение по опубликованному подключению, органам управления и цене."
 section: gear
 updated: 2026-10-14
+published: 2026-10-07
 draft: false
 image: /img/gear/3dconnexion-spacemouse-wireless.jpg
 imageCredit: "3Dconnexion (official website)"

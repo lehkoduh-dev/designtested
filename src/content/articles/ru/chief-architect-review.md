@@ -4,6 +4,7 @@ description: "Фактический обзор Chief Architect Premier, про�
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-08-20
 draft: false
 vendor: Chief Architect
 officialUrl: https://www.chiefarchitect.com

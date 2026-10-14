@@ -3,6 +3,7 @@ title: "Best 3D Modelling and Drafting Software for Interior Designers in 2026"
 description: "SketchUp, Chief Architect, Blender and Morpholio Trace compared by price and purpose."
 section: best
 updated: 2026-10-13
+published: 2026-09-11
 draft: false
 image: /img/tools/sketchup-review.jpg
 imageCredit: "Trimble SketchUp (official website)"

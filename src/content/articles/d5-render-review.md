@@ -3,6 +3,7 @@ title: "D5 Render Review 2026: Real-Time Rendering with a Free Tier"
 description: "A review of D5 Render, a real-time rendering application with Community, Pro and Teams plans, based on the vendor's published information."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-18
 draft: false
 image: /img/tools/d5-render-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

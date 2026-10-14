@@ -8,6 +8,7 @@ const articles = defineCollection({
     description: z.string(),
     section: z.enum(['best', 'compare', 'reviews', 'business-tools', 'guides', 'gear', 'news']),
     updated: z.coerce.date(),
+    published: z.coerce.date().optional(),
     lang: z.enum(['en', 'ru']).default('en'),
     draft: z.boolean().default(false),
     image: z.string().optional(),

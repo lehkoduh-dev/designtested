@@ -3,6 +3,7 @@ title: "Обзор magicplan 2026: мобильная съёмка планир�
 description: "Обзор magicplan, приложения для телефона и планшета для создания планировок, фото объекта, смет и отчётов, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-09-02
 draft: false
 vendor: "magicplan"
 officialUrl: "https://magicplan.app"

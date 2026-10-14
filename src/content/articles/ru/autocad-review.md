@@ -4,6 +4,7 @@ description: "Обзор Autodesk AutoCAD, приложения для 2D- и 3D
 lang: ru
 section: reviews
 updated: 2026-10-13
+published: 2026-08-05
 draft: false
 vendor: "Autodesk"
 officialUrl: "https://www.autodesk.com/products/autocad/overview"

@@ -3,6 +3,7 @@ title: "Interior AI Review 2026: Photo-to-Redesign Tool With Subscription Plans"
 description: "An overview of Interior AI, a web app that redesigns uploaded interior photos with AI, and the plans published on its site."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-28
 draft: false
 image: /img/tools/interior-ai-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

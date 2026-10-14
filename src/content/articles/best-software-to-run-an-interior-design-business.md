@@ -3,6 +3,7 @@ title: "Best Software to Run an Interior Design Business in 2026"
 description: "Houzz Pro, DesignFiles and Desenta compared: client delivery, proposals, invoicing and project management."
 section: best
 updated: 2026-10-13
+published: 2026-09-01
 draft: false
 image: /img/tools/designfiles-review.jpg
 imageCredit: "DesignFiles (official website)"

@@ -3,6 +3,7 @@ title: "Best 360 Cameras and Room Scanners for Interior Designers in 2026"
 description: "Five 360 cameras and room scanners from Matterport, Leica, Ricoh, Insta360 and Apple compared by their published specifications."
 section: gear
 updated: 2026-10-14
+published: 2026-09-28
 draft: false
 image: /img/gear/matterport-pro3.jpg
 imageCredit: "Matterport (official website)"

@@ -3,6 +3,7 @@ title: "Обзор Interior AI 2026: редизайн по фото с плат�
 description: "Обзор Interior AI — веб-приложения, которое с помощью ИИ перерабатывает дизайн загруженных фото интерьеров, и тарифов, опубликованных на его сайте."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-28
 draft: false
 image: /img/tools/interior-ai-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

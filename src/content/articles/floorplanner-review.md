@@ -3,6 +3,7 @@ title: "Floorplanner Review 2026: Online 2D Floor Plans and 3D Room Planning"
 description: "A factual look at Floorplanner's browser-based floor plan editor and its credit-based pricing, based on the vendor's own pages."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-31
 draft: false
 vendor: Floorplanner
 officialUrl: https://floorplanner.com

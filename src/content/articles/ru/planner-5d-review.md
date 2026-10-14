@@ -3,6 +3,7 @@ title: "Обзор Planner 5D 2026: цены, функции и альтерна
 description: "Обзор Planner 5D, планировщика дома и интерьера с бесплатным, Premium и Professional тарифами, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-07
 draft: false
 image: /img/tools/planner-5d-review.jpg
 imageCredit: Screenshot of the official website, 12 October 2026

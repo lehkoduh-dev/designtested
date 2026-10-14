@@ -3,6 +3,7 @@ title: "Лучшие 360-камеры и сканеры помещений дл�
 description: "Пять 360-камер и сканеров помещений от Matterport, Leica, Ricoh, Insta360 и Apple: сравнение по опубликованным характеристикам."
 section: gear
 updated: 2026-10-14
+published: 2026-09-28
 draft: false
 lang: ru
 image: /img/gear/matterport-pro3.jpg

@@ -3,6 +3,7 @@ title: "Лучшие программы для рендера интерьеро
 description: "Foyr Neo, Enscape, Lumion, D5 Render и Blender: сравнение по цене и рабочему процессу."
 section: best
 updated: 2026-10-13
+published: 2026-09-15
 draft: false
 image: /img/tools/d5-render-review.jpg
 imageCredit: "Screenshot of the official website, 12 October 2026"

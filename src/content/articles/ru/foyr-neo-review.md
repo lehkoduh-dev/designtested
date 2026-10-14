@@ -3,6 +3,7 @@ title: "Обзор Foyr Neo 2026: цены, функции и альтернат
 description: "Обзор Foyr Neo — инструмента для дизайнеров интерьера с упором на рендеринг, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-27
 draft: false
 image: /img/tools/foyr-neo-review.jpg
 imageCredit: Foyr (official website, product demo)

@@ -3,6 +3,7 @@ title: "DesignFiles Review 2026: Business Software for Interior Designers"
 description: "An overview of DesignFiles, which combines moodboards, floor plans, 3D renders, quotes, invoicing and a client portal for interior designers."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-24
 draft: false
 vendor: "DesignFiles"
 officialUrl: "https://designfiles.co/"

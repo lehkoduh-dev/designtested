@@ -4,6 +4,7 @@ description: "Обзор Enscape, плагина для рендеринга в 
 lang: ru
 section: reviews
 updated: 2026-10-12
+published: 2026-07-22
 draft: false
 vendor: "Chaos (Enscape)"
 officialUrl: "https://www.chaos.com/enscape"

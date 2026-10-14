@@ -3,6 +3,7 @@ title: "Chief Architect Review 2026: Professional Residential Design and Draftin
 description: "A factual look at Chief Architect Premier, professional home design software for residential, kitchen, bath and interior work, with its published subscription prices."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-20
 draft: false
 vendor: Chief Architect
 officialUrl: https://www.chiefarchitect.com

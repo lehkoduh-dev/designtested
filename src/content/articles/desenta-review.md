@@ -3,6 +3,7 @@ title: "Desenta Review 2026: White-Label Project Delivery for Interior Designers
 description: "Desenta is a white-label platform for presenting and delivering interior design projects in one client link. Features and published prices, with our relationship to the product disclosed."
 section: reviews
 updated: 2026-10-13
+published: 2026-08-27
 draft: false
 vendor: Desenta
 officialUrl: https://desenta.com

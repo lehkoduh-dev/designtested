@@ -3,6 +3,7 @@ title: "magicplan Review 2026: Mobile Floor Plan Capture and Site Documentation"
 description: "A review of magicplan, a phone and tablet app for floor plans, site photos, estimates and reports, based on the vendor's published information."
 section: reviews
 updated: 2026-10-13
+published: 2026-09-02
 draft: false
 vendor: "magicplan"
 officialUrl: "https://magicplan.app"

@@ -3,6 +3,7 @@ title: "Best Colour Tools for Interior Designers in 2026: Colour Matching and Mo
 description: "Five colour tools from Nix, Calibrite and Datacolor compared by their published specs and prices: two for matching paint and surface colours, three for calibrating monitors."
 section: gear
 updated: 2026-10-14
+published: 2026-09-24
 draft: false
 image: /img/gear/nix-mini-3.jpg
 imageCredit: "Nix Sensor (official website)"

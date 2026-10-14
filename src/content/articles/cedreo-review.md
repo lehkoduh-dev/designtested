@@ -3,6 +3,7 @@ title: "Cedreo Review 2026: Pricing, Features and Alternatives"
 description: "A review of Cedreo, a home design and rendering tool with Free, Personal, Pro and Enterprise plans, based on the vendor's published information."
 section: reviews
 updated: 2026-10-12
+published: 2026-08-21
 draft: false
 vendor: "Cedreo"
 officialUrl: "https://cedreo.com"

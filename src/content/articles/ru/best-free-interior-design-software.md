@@ -3,6 +3,7 @@ title: "Лучшие бесплатные программы для дизайн
 description: "Бесплатные программы и тарифы для планировок, 3D-дизайна и рендера: что бесплатно и какие у каждой ограничения."
 section: best
 updated: 2026-10-13
+published: 2026-09-04
 draft: false
 image: /img/tools/sweet-home-3d-review.jpg
 imageCredit: "eTeks (official website)"

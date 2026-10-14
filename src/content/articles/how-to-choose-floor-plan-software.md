@@ -3,6 +3,7 @@ title: "How to Choose Floor Plan Software for Interior Design (2026)"
 description: "A practical guide to choosing floor plan software by workflow, output needs and pricing model before you commit to a subscription."
 section: guides
 updated: 2026-10-13
+published: 2026-09-25
 draft: false
 image: /img/tools/roomsketcher-review.jpg
 imageCredit: "RoomSketcher (official website)"

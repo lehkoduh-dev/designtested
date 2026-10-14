@@ -3,6 +3,7 @@ title: "Обзор Sweet Home 3D 2026: цены, функции и альтер�
 description: "Обзор Sweet Home 3D, бесплатного приложения для дизайна интерьера с открытым исходным кодом, на основе информации, опубликованной вендором."
 section: reviews
 updated: 2026-10-13
+published: 2026-07-30
 draft: false
 vendor: "eTeks"
 officialUrl: "https://www.sweethome3d.com"

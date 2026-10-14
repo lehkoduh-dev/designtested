@@ -36,13 +36,13 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
   <section class="feat">
     <a class="big" href={href(featured)}>
       {featured.data.image ? <img src={featured.data.image} alt="" /> : <span class="ph">DT</span>}
-      <div><span class="tag">{tag(featured.data.section)}</span><h2>{featured.data.title}</h2><p>{featured.data.description}</p><small>{fmt(featured.data.updated)}</small></div>
+      <div><span class="tag">{tag(featured.data.section)}</span><h2>{featured.data.title}</h2><p>{featured.data.description}</p></div>
     </a>
     <div class="side">
       {rest.slice(0, 4).map((a) => (
         <a class="mini" href={href(a)}>
           {a.data.image ? <img src={a.data.image} alt="" loading="lazy" /> : <span class="ph">DT</span>}
-          <div><span class="tag">{tag(a.data.section)}</span><h3>{a.data.title}</h3><small>{fmt(a.data.updated)}</small></div>
+          <div><span class="tag">{tag(a.data.section)}</span><h3>{a.data.title}</h3></div>
         </a>
       ))}
     </div>

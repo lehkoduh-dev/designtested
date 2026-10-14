@@ -17,7 +17,6 @@ const items = (await getCollection('articles', (a) => a.data.section === section
         <div class="body">
           <h3>{a.data.title}</h3>
           <p>{a.data.description}</p>
-          <small>{a.data.updated.toISOString().slice(0, 10)}</small>
         </div>
       </a>
     ))}

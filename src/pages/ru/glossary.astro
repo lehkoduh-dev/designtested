@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { glossary } from '../../data/glossary';
+---
+<Base title="Глоссарий: термины программ для дизайна интерьера" description="Простые определения BIM, CAD, FF&E, рендера и других терминов из мира программ для дизайна интерьера." lang="ru" alt="/glossary/">
+  <h1>Глоссарий</h1>
+  <p>Простые определения терминов, которые встречаются при выборе программ для дизайна.</p>
+  <dl>{glossary.ru.map(([t, d]) => <><dt>{t}</dt><dd>{d}</dd></>)}</dl>
+  <style>dt{font-weight:700;margin-top:1em}dd{margin:.2em 0 0}</style>
+</Base>

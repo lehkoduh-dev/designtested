@@ -1,0 +1,31 @@
+---
+import { tools } from '../data/tools';
+import { UI } from '../data/ui';
+import ToolCard from './ToolCard.astro';
+const { a, b, lang = 'en' } = Astro.props;
+const L = UI[lang as 'en' | 'ru'];
+const A = tools.find((t) => t.slug === a)!, B = tools.find((t) => t.slug === b)!;
+const ru = lang === 'ru';
+const free = (t: any) => L.free[t.free as 'yes'];
+const rows: [string, (t: any) => string][] = [[L.type, (t) => L.cats[t.cat as keyof typeof L.cats]], [ru ? 'Бесплатно' : 'Free option', free], [L.price, (t) => t.price], [L.notes, (t) => t.note]];
+const same = A.cat === B.cat;
+const freeOnly = [A, B].filter((t) => t.free === 'yes');
+---
+<p>{ru ? `${A.name} и ${B.name} — сравнение по данным официальных сайтов вендоров.` : `${A.name} and ${B.name} compared using the vendors’ own published information.`}{same ? (ru ? ` Оба относятся к типу «${L.cats[A.cat]}».` : ` Both are ${L.cats[A.cat]} tools.`) : (ru ? ` Это разные типы программ (${L.cats[A.cat]} и ${L.cats[B.cat]}), поэтому их часто используют вместе, а не вместо друг друга.` : ` They are different kinds of tool (${L.cats[A.cat]} and ${L.cats[B.cat]}), so they are often used together rather than instead of each other.`)}</p>
+<table>
+  <thead><tr><th></th><th>{A.name}</th><th>{B.name}</th></tr></thead>
+  <tbody>{rows.map(([k, f]) => <tr><td>{k}</td><td>{f(A)}</td><td>{f(B)}</td></tr>)}</tbody>
+</table>
+<h2>{ru ? 'Как выбрать' : 'How to choose'}</h2>
+<ul>
+  {freeOnly.length === 1 && <li>{ru ? `Нужен бесплатный вариант: у ${freeOnly[0].name} есть бесплатный тариф.` : `You need a free option: ${freeOnly[0].name} has a free plan.`}</li>}
+  {freeOnly.length === 2 && <li>{ru ? 'У обеих программ есть бесплатный тариф — сравните его ограничения в обзорах.' : 'Both have a free plan — compare their limits in the reviews.'}</li>}
+  {freeOnly.length === 0 && <li>{ru ? 'Бесплатного тарифа нет ни у одной: проверьте пробный период и условия в обзорах.' : 'Neither has a free plan: check trial terms in the reviews.'}</li>}
+  <li>{ru ? 'Цена: сверьте тарифы в таблице выше — в обзорах расписано, что входит в каждый.' : 'Price: compare the plans in the table above — each review explains what is included.'}</li>
+  <li>{ru ? 'Для кого подходит каждая — в блоке «Коротко» на странице обзора.' : 'Who each one suits is in the “Quick take” box on its review page.'}</li>
+</ul>
+<h2>{ru ? 'Обзоры' : 'Full reviews'}</h2>
+<div class="g"><ToolCard t={A} lang={lang} /><ToolCard t={B} lang={lang} /></div>
+<p><a href={`${L.prefix}/compare-tools/#${A.slug},${B.slug}`}>{ru ? 'Добавить ещё программы в сравнение →' : 'Add more tools to this comparison →'}</a></p>
+<p class="meta">{L.src}</p>
+<style>.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin:12px 0}table{width:100%}td:first-child{font-weight:600;white-space:nowrap}</style>

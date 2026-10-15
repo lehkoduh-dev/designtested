@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import Versus from '../../components/Versus.astro';
+import { tools } from '../../data/tools';
+import { pairs } from '../../data/ui';
+export function getStaticPaths() { return pairs.map(([a, b]) => ({ params: { pair: `${a}-vs-${b}` }, props: { a, b } })); }
+const { a, b } = Astro.props;
+const n = (s: string) => tools.find((t) => t.slug === s)!.name;
+---
+<Base title={`${n(a)} vs ${n(b)}: price and features compared`} description={`${n(a)} vs ${n(b)}: type, free options, price and notes side by side, from vendors’ official pages.`} alt={`/ru/versus/${a}-vs-${b}/`}>
+  <h1>{n(a)} vs {n(b)}</h1>
+  <Versus a={a} b={b} lang="en" />
+</Base>

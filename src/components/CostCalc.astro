@@ -1,0 +1,41 @@
+---
+import { tools } from '../data/tools';
+import { pricing } from '../data/pricing';
+import { UI } from '../data/ui';
+const { lang = 'en' } = Astro.props;
+const L = UI[lang as 'en' | 'ru'];
+const ru = lang === 'ru';
+const rows = pricing.map((p) => ({ ...p, name: tools.find((t) => t.slug === p.slug)!.name, review: `${L.prefix}/reviews/${p.slug}-review/` }));
+const T = ru
+  ? { years: 'Срок использования', y1: '1 год', y2: '2 года', y3: '3 года', tool: 'Программа (тариф)', mo: 'Помесячная оплата', yr: 'Годовая оплата', once: 'Разовая покупка', total: 'Итого за срок', na: 'не опубликовано', cheap: 'Показывается самый дешёвый способ оплаты. Сортировка по цене.', note: 'Цена за одного пользователя по тарифу, указанному в скобках, без налогов; оплата помесячно = цена в месяц × 12 × число лет. Тарифы отличаются функциями — смотрите обзоры. Данные с официальных сайтов, на 12.10.2026.', best: 'Самый выгодный способ' }
+  : { years: 'Period of use', y1: '1 year', y2: '2 years', y3: '3 years', tool: 'Tool (plan)', mo: 'Billed monthly', yr: 'Billed yearly', once: 'One-time', total: 'Total for the period', na: 'not published', cheap: 'The cheapest published billing option is shown. Sorted by total.', note: 'Price per single user for the plan named in brackets, excluding tax; monthly billing = monthly price × 12 × years. Plans differ in features — see the reviews. Data from vendors’ official pages, read 12 Oct 2026.', best: 'Cheapest option' };
+---
+<div id="cc" data-rows={JSON.stringify(rows)} data-t={JSON.stringify(T)}>
+  <p><label>{T.years}: <select id="cc-y"><option value="1">{T.y1}</option><option value="2">{T.y2}</option><option value="3" selected>{T.y3}</option></select></label></p>
+  <div id="cc-out"></div>
+  <p class="meta">{T.note}</p>
+</div>
+<script>
+  const root = document.getElementById('cc')!;
+  const rows = JSON.parse(root.dataset.rows!), T = JSON.parse(root.dataset.t!);
+  const sel = document.getElementById('cc-y') as HTMLSelectElement, out = document.getElementById('cc-out')!;
+  const fmt = (n: number) => '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+  function render() {
+    const y = +sel.value;
+    const list = rows.map((r: any) => {
+      const opts: [string, number][] = [];
+      if (r.monthly != null) opts.push([T.mo, r.monthly * 12 * y]);
+      if (r.yearly != null) opts.push([T.yr, r.yearly * y]);
+      if (r.once != null) opts.push([T.once, r.once]);
+      opts.sort((a, b) => a[1] - b[1]);
+      return { r, best: opts[0] };
+    }).sort((a: any, b: any) => a.best[1] - b.best[1]);
+    out.innerHTML = '<div class="cc-g">' + list.map((x: any) => '<a class="cc-c" href="' + x.r.review + '"><b>' + x.r.name + '</b><small>' + x.r.plan + '</small><span class="cc-t">' + fmt(x.best[1]) + '</span><small>' + T.best + ': ' + x.best[0] + '</small></a>').join('') + '</div>';
+  }
+  sel.addEventListener('change', render); render();
+</script>
+<style is:global>
+  .cc-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+  .cc-c{display:flex;flex-direction:column;gap:3px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--fg)}
+  .cc-c:hover{border-color:var(--accent2)}.cc-c small{color:var(--muted)}.cc-t{font:700 1.6rem 'Space Grotesk',sans-serif;margin:4px 0}
+</style>

@@ -1,0 +1,20 @@
+---
+import { tools } from '../data/tools';
+import { UI } from '../data/ui';
+import ToolCard from './ToolCard.astro';
+const { slug, lang = 'en' } = Astro.props;
+const L = UI[lang as 'en' | 'ru'];
+const me = tools.find((t) => t.slug === slug)!;
+const same = tools.filter((t) => t.slug !== slug && t.cat === me.cat);
+const other = tools.filter((t) => t.slug !== slug && t.cat !== me.cat).slice(0, 3);
+const ru = lang === 'ru';
+---
+<p>{ru ? `Если ${me.name} не подходит по цене, задачам или платформе, вот другие программы из нашего каталога (тип: ${L.cats[me.cat]}). Цены и условия — с официальных сайтов.` : `If ${me.name} does not fit your budget, workflow or platform, these are the other tools in our catalog (type: ${L.cats[me.cat]}). Prices and terms come from the vendors’ own pages.`}</p>
+<h2>{ru ? `${me.name} коротко` : `${me.name} at a glance`}</h2>
+<div class="g"><ToolCard t={me} lang={lang} /></div>
+<h2>{ru ? 'Альтернативы того же типа' : 'Alternatives of the same type'}</h2>
+{same.length ? <div class="g">{same.map((t) => <ToolCard t={t} lang={lang} cmp={`${me.slug},${t.slug}`} />)}</div> : <p>{ru ? 'В этой категории у нас пока нет других программ — смотрите смежные ниже.' : 'We do not cover other tools in this category yet — see related ones below.'}</p>}
+<h2>{ru ? 'Смежные инструменты' : 'Related tools'}</h2>
+<div class="g">{other.map((t) => <ToolCard t={t} lang={lang} cmp={`${me.slug},${t.slug}`} />)}</div>
+<p class="meta">{L.src}</p>
+<style>.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin:12px 0}</style>

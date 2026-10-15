@@ -1,0 +1,46 @@
+---
+import fs from 'node:fs';
+import { tools } from '../data/tools';
+import { UI } from '../data/ui';
+const { lang = 'en' } = Astro.props;
+const L = UI[lang as 'en' | 'ru'];
+const ru = lang === 'ru';
+const data = tools.map((t) => ({ ...t, img: fs.existsSync(`./public/img/tools/${t.slug}-review.jpg`) ? `/img/tools/${t.slug}-review.jpg` : '', url: `${L.prefix}/reviews/${t.slug}-review/` }));
+const T = ru
+  ? { q1: 'Что вам нужно?', q2: 'Бюджет', any: 'Любой', free: 'Только с бесплатным тарифом или пробным периодом', all: 'Всё', none: 'Ничего не подходит — измените фильтры.', found: 'Найдено' }
+  : { q1: 'What do you need?', q2: 'Budget', any: 'Any', free: 'Only with a free plan or trial', all: 'Everything', none: 'Nothing matches — change the filters.', found: 'Found' };
+---
+<div id="fd" data-d={JSON.stringify(data)} data-l={JSON.stringify({ ...L, ...T })}>
+  <fieldset><legend>{T.q1}</legend>
+    <label><input type="radio" name="cat" value="" checked /> {T.all}</label>
+    {Object.entries(L.cats).map(([k, v]) => <label><input type="radio" name="cat" value={k} /> {v}</label>)}
+  </fieldset>
+  <fieldset><legend>{T.q2}</legend>
+    <label><input type="radio" name="b" value="" checked /> {T.any}</label>
+    <label><input type="radio" name="b" value="free" /> {T.free}</label>
+  </fieldset>
+  <p id="fd-n"></p>
+  <div id="fd-out" class="fd-g"></div>
+  <p class="meta">{L.src}</p>
+</div>
+<script>
+  const root = document.getElementById('fd')!;
+  const d = JSON.parse(root.dataset.d!), L = JSON.parse(root.dataset.l!);
+  const out = document.getElementById('fd-out')!, n = document.getElementById('fd-n')!;
+  const val = (name: string) => (root.querySelector(`input[name=${name}]:checked`) as HTMLInputElement).value;
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+  function render() {
+    const cat = val('cat'), b = val('b');
+    const r = d.filter((t: any) => (!cat || t.cat === cat) && (b !== 'free' || t.free !== 'no'));
+    n.textContent = r.length ? `${L.found}: ${r.length}` : L.none;
+    out.innerHTML = r.map((t: any) => `<a class="fd-c" href="${t.url}">${t.img ? `<img src="${t.img}" alt="" loading="lazy">` : '<span class="ph">DT</span>'}<b>${esc(t.name)}</b><small>${L.cats[t.cat]} · ${L.free[t.free]}</small><span>${esc(t.price)}</span></a>`).join('');
+  }
+  root.addEventListener('change', render); render();
+</script>
+<style is:global>
+  #fd fieldset{border:1px solid var(--line);border-radius:12px;margin:0 0 12px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:6px 16px}
+  .fd-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+  .fd-c{display:flex;flex-direction:column;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 0 14px;overflow:hidden;text-decoration:none;color:var(--fg)}
+  .fd-c img,.fd-c .ph{width:100%;aspect-ratio:16/9;object-fit:contain;background:#fff;display:flex;align-items:center;justify-content:center}.fd-c .ph{background:linear-gradient(135deg,#2F4FE8,#0FB88C);color:#fff;font:700 2rem 'Space Grotesk',sans-serif}
+  .fd-c b,.fd-c small,.fd-c span:last-child{padding:0 16px}.fd-c small{color:var(--muted)}.fd-c:hover{border-color:var(--accent2)}
+</style>

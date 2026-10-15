@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import Alternatives from '../../components/Alternatives.astro';
+import { tools } from '../../data/tools';
+export function getStaticPaths() { return tools.filter((t) => !t.slug.startsWith('desenta')).map((t) => ({ params: { tool: t.slug }, props: { t } })); }
+const { t } = Astro.props;
+const name = t.name;
+---
+<Base title={`${name} alternatives and competitors`} description={`Alternatives to ${name}: other interior design tools compared by price, free options and type.`} alt={`/ru/alternatives/${t.slug}/`}>
+  <h1>{name} alternatives</h1>
+  <Alternatives slug={t.slug} lang="en" />
+</Base>

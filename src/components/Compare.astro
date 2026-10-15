@@ -21,7 +21,7 @@ const withImg = tools.map((t) => ({ ...t, img: fs.existsSync(`./public/img/tools
   .cmp-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
   .cmp-list small{color:var(--muted)}
   #cmp-out table{margin-top:1rem}
-  .cimg{display:block;width:100%;max-width:200px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;margin-bottom:6px}
+  .cimg{display:block;width:100%;max-width:200px;aspect-ratio:16/9;object-fit:contain;border-radius:6px;margin-bottom:6px}
   #cmp-out td:first-child,#cmp-out th:first-child{font-weight:600;white-space:nowrap}
 </style>
 <script>

@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { glossary } from '../data/glossary';
+---
+<Base title="Interior design software glossary" description="Plain-language definitions of BIM, CAD, FF&E, rendering and other terms used in interior design software." alt="/ru/glossary/">
+  <h1>Glossary</h1>
+  <p>Plain-language definitions of terms you will meet when choosing design software.</p>
+  <dl>{glossary.en.map(([t, d]) => <><dt id={t.toLowerCase().replace(/[^a-z0-9]+/g, '-')}>{t}</dt><dd>{d}</dd></>)}</dl>
+  <style>dt{font-weight:700;margin-top:1em}dd{margin:.2em 0 0}</style>
+</Base>

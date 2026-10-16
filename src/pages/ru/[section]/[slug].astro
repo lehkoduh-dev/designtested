@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
+import DesentaBox from '../../../components/DesentaBox.astro';
 import Ratings from '../../../components/Ratings.astro';
 import { T } from '../../../i18n';
 
@@ -38,6 +39,7 @@ const t = T.ru;
       </div>
     )}
     <Content />
+    {(entry.data.section === 'guides' || ['best-software-to-run-an-interior-design-business','houzz-pro-review','designfiles-review'].includes(entry.id.replace(/^ru\//,''))) && <DesentaBox lang="ru" />}
     {entry.data.section === 'reviews' && <Ratings slug={entry.id.replace(/^ru\//,'').replace(/-review$/,'')} lang="ru" />}
   </article>
 </Base>

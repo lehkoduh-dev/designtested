@@ -1,0 +1,18 @@
+---
+const { lang = 'en' } = Astro.props;
+const ru = lang === 'ru', p = ru ? '/ru' : '';
+const T = ru
+  ? { tag: 'Наш продукт', h: 'Desenta — подача и сдача проекта клиенту', d: 'Белая метка для дизайнеров интерьера: мудборды, визуализации, планировки и ведомости в одной брендированной ссылке для клиента. Есть бесплатный тариф. Desenta не чертит и не рендерит — работает вместе с программами из этого каталога.', a: 'Читать обзор', b: 'Сайт Desenta' }
+  : { tag: 'Our own product', h: 'Desenta — present and deliver projects to clients', d: 'A white-label platform for interior designers: moodboards, visuals, plans and schedules in one branded client link. A free plan is available. Desenta does not draw or render — it works alongside the tools in this catalog.', a: 'Read the review', b: 'Desenta website' };
+---
+<aside class="dsn">
+  <span class="tag">{T.tag}</span>
+  <h3>{T.h}</h3>
+  <p>{T.d}</p>
+  <p><a href={`${p}/reviews/desenta-review/`}>{T.a} →</a> · <a href="https://desenta.com" target="_blank" rel="noopener">{T.b} ↗</a></p>
+</aside>
+<style>
+  .dsn{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:12px;padding:14px 18px;margin:24px 0}
+  .dsn .tag{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#0a8f6c}
+  .dsn h3{margin:.3em 0}.dsn p{margin:.4em 0}
+</style>

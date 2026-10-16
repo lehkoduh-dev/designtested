@@ -56,7 +56,7 @@ const nav = t.nav.map((n) => ({ href: prefix + n.path, label: n.label }));
       <div class="wrap">
         <p><strong>{SITE.name}</strong> — {t.tagline}</p>
         <p class="small">
-          {t.footerDisclosure} <a href={prefix + '/affiliate-disclosure/'}>{t.disclosureLink}</a>.
+          {prefix === '/ru' ? 'DesignTested делает команда, стоящая за ' : 'DesignTested is made by the team behind '}<a href="https://desenta.com" target="_blank" rel="noopener">Desenta</a>. {t.footerDisclosure} <a href={prefix + '/affiliate-disclosure/'}>{t.disclosureLink}</a>.
         </p>
         <p class="small">
           {t.footerLinks.map((l, i) => (<Fragment>{i > 0 && ' · '}<a href={prefix + l.path}>{l.label}</a></Fragment>))}

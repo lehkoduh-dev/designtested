@@ -1,4 +1,5 @@
 ---
+import DesentaBox from './DesentaBox.astro';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import { tools } from '../data/tools';
@@ -53,6 +54,8 @@ const tag = (s: string) => ({ best: ru ? 'Лучшее' : 'Best of', gear: ru ? 
 <ul class="news">
   {news.map((a) => (<li><time>{fmt(a.data.published ?? a.data.updated)}</time> <a href={`/news/${a.id}/`}>{a.data.title}</a></li>))}
 </ul>
+
+<DesentaBox lang={lang} />
 
 <h2 class="sec">{L.catalog} <a href={`${P}/software/`}>{L.all} →</a></h2>
 <div class="strip">

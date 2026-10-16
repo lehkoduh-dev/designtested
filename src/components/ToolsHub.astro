@@ -3,20 +3,25 @@ import { tools } from '../data/tools';
 import { pairs } from '../data/ui';
 const { lang = 'en' } = Astro.props;
 const ru = lang === 'ru', p = ru ? '/ru' : '';
+import fs from 'node:fs';
+const im = (s: string) => fs.existsSync(`./public/img/tools/${s}-review.jpg`) ? `/img/tools/${s}-review.jpg` : '';
 const n = (s: string) => tools.find((t) => t.slug === s)!.name;
+const icons = ['find','cost','compare','glossary'];
 const cards = ru
   ? [['Подбор программы', 'Выберите задачу и бюджет — получите список.', '/find-software/'], ['Калькулятор стоимости', 'Сколько программа стоит за 1–3 года.', '/cost-calculator/'], ['Сравнение программ', 'Отметьте 2–4 программы и сравните.', '/compare-tools/'], ['Глоссарий', 'BIM, CAD, FF&E, рендер и другие термины.', '/glossary/']]
   : [['Find software', 'Pick a task and budget, get a shortlist.', '/find-software/'], ['Cost calculator', 'What each tool costs over 1–3 years.', '/cost-calculator/'], ['Compare tools', 'Tick 2–4 tools and compare them.', '/compare-tools/'], ['Glossary', 'BIM, CAD, FF&E, rendering and more.', '/glossary/']];
 ---
-<div class="th">{cards.map(([t, d, h]) => <a href={p + h}><b>{t}</b><span>{d}</span></a>)}</div>
+<div class="th">{cards.map(([t, d, h], i) => <a href={p + h}><img src={`/brand/tools/${icons[i]}.svg`} alt="" width="640" height="360" /><b>{t}</b><span>{d}</span></a>)}</div>
 <h2>{ru ? 'Сравнения' : 'Head-to-head'}</h2>
-<div class="pl">{pairs.map(([a, b]) => <a href={`${p}/versus/${a}-vs-${b}/`}>{n(a)} {ru ? 'или' : 'vs'} {n(b)}</a>)}</div>
+<div class="pl">{pairs.map(([a, b]) => <a href={`${p}/versus/${a}-vs-${b}/`}><span class="im">{im(a) ? <img src={im(a)} alt="" loading="lazy" /> : <i>DT</i>}{im(b) ? <img src={im(b)} alt="" loading="lazy" /> : <i>DT</i>}</span><b>{n(a)} {ru ? 'или' : 'vs'} {n(b)}</b></a>)}</div>
 <h2>{ru ? 'Альтернативы' : 'Alternatives'}</h2>
-<div class="pl">{tools.filter((t) => !t.slug.startsWith('desenta')).map((t) => <a href={`${p}/alternatives/${t.slug}/`}>{ru ? 'Альтернативы' : 'Alternatives to'} {t.name}</a>)}</div>
+<div class="pl">{tools.filter((t) => !t.slug.startsWith('desenta')).map((t) => <a href={`${p}/alternatives/${t.slug}/`}><span class="im">{im(t.slug) ? <img src={im(t.slug)} alt="" loading="lazy" /> : <i>DT</i>}</span><b>{ru ? 'Альтернативы' : 'Alternatives to'} {t.name}</b></a>)}</div>
 <style>
   .th{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:14px 0}
   .th a,.pl a{background:var(--card);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--fg)}
   .th a{padding:18px;display:flex;flex-direction:column;gap:6px}.th b{font:700 1.15rem 'Space Grotesk',sans-serif}.th span{color:var(--muted)}
-  .pl{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.pl a{padding:10px 14px}
+  .th img{width:calc(100% + 36px);margin:-18px -18px 6px;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:12px 12px 0 0}.th a{overflow:hidden}
+  .pl{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}.pl a{display:flex;flex-direction:column;overflow:hidden}.pl b{padding:10px 14px}
+  .im{display:flex;background:#fff;aspect-ratio:16/7;border-bottom:1px solid var(--line)}.im img,.im i{flex:1;min-width:0;height:100%;object-fit:contain;padding:4px}.im i{display:flex;align-items:center;justify-content:center;font:700 1.4rem 'Space Grotesk',sans-serif;color:#fff;background:linear-gradient(135deg,#2F4FE8,#0FB88C)}
   .th a:hover,.pl a:hover{border-color:var(--accent2)}
 </style>

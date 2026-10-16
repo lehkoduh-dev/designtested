@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import Alternatives from '../../../components/Alternatives.astro';
 import { tools } from '../../../data/tools';
-export function getStaticPaths() { return tools.filter((t) => !t.slug.startsWith('desenta')).map((t) => ({ params: { tool: t.slug }, props: { t } })); }
+export function getStaticPaths() { return tools.map((t) => ({ params: { tool: t.slug }, props: { t } })); }
 const { t } = Astro.props;
 ---
 <Base title={`Альтернативы ${t.name}`} description={`Альтернативы ${t.name}: другие программы для дизайна интерьера по цене, бесплатным тарифам и типу.`} lang="ru" alt={`/alternatives/${t.slug}/`}>

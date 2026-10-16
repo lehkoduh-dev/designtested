@@ -15,7 +15,7 @@ const cards = ru
 <h2>{ru ? 'Сравнения' : 'Head-to-head'}</h2>
 <div class="pl">{pairs.map(([a, b]) => <a href={`${p}/versus/${a}-vs-${b}/`}><span class="im">{im(a) ? <img src={im(a)} alt="" loading="lazy" /> : <i>DT</i>}{im(b) ? <img src={im(b)} alt="" loading="lazy" /> : <i>DT</i>}</span><b>{n(a)} {ru ? 'или' : 'vs'} {n(b)}</b></a>)}</div>
 <h2>{ru ? 'Альтернативы' : 'Alternatives'}</h2>
-<div class="pl">{tools.filter((t) => !t.slug.startsWith('desenta')).map((t) => <a href={`${p}/alternatives/${t.slug}/`}><span class="im">{im(t.slug) ? <img src={im(t.slug)} alt="" loading="lazy" /> : <i>DT</i>}</span><b>{ru ? 'Альтернативы' : 'Alternatives to'} {t.name}</b></a>)}</div>
+<div class="pl">{tools.map((t) => <a href={`${p}/alternatives/${t.slug}/`}><span class="im">{im(t.slug) ? <img src={im(t.slug)} alt="" loading="lazy" /> : <i>DT</i>}</span><b>{ru ? 'Альтернативы' : 'Alternatives to'} {t.name}</b></a>)}</div>
 <style>
   .th{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:14px 0}
   .th a,.pl a{background:var(--card);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--fg)}
